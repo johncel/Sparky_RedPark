@@ -1,0 +1,32 @@
+Sparky Robot using Roomba, IOS Robot controller, and OSX Remote Driver
+======================================================================
+
+Author: John Celenza
+2011-
+
+File List:
+
+Server Controller (software that runs on a remote server to relay messages between driver and robot):
+=================
+sparky_utils.c -- utilities
+sparky_utils.h
+server_controller.c -- main program
+Makefile -- to build server_controller type "make"
+
+
+Redpark Serial SDK (Redpark example project that has been modified to connect to RedPark Serial Cable and to Robot)
+==================
+Redpark License.pdf
+Redpark ReadMe.pdf
+Redpark Serial SDK - the IOS XCode project to run on IOS device
+RedparkSDK.dmg - original SDK (no modifications)
+
+SparkyController (OSX project to build application that driver uses remotely to drive robot)
+================
+SparkyController - XCode project
+shell_make_sparkyconrtoller_dmg - script to build dmg for distribution of SparkyController
+
+Dashboard (meant to exist on server to help diagnose connection issues)
+=========
+dashboard.html
+
