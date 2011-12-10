@@ -1,0 +1,3 @@
+#!/bin/bash
+
+hdiutil create SparkyController.dmg -srcfolder ./SparkyController/build/Debug -ov

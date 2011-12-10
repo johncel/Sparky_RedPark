@@ -1,0 +1,56 @@
+TSparkyController
+v7
+r1
+cCheck dependencies
+
+N/Developer/fliners/johnandbrendan.com/sparky/SparkyController/English.lproj/InfoPlist.strings
+c000000004814E56000000000000000CA
+t1209328992
+s202
+
+N/Developer/fliners/johnandbrendan.com/sparky/SparkyController/English.lproj/MainMenu.nib
+c00000000480A7D5200000000000000AA
+t1208646994
+s170
+
+N/Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/Release/SparkyController.app
+t1209328888
+s102
+
+N/Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/Release/SparkyController.app/Contents/Info.plist
+t1209328888
+s805
+
+N/Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/Release/SparkyController.app/Contents/PkgInfo
+t1209328889
+s8
+
+N/Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/Release/SparkyController.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1209328889
+s202
+
+N/Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/Release/SparkyController.app/Contents/Resources/English.lproj/MainMenu.nib
+t1209328890
+s170
+
+NInfo.plist
+c000000004814E5620000000000000356
+t1209328994
+s854
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies310624918#310624918#0(86"[BEROR]error: There is no SDK with the name or path '/Developer/SDKs/MacOSX10.4u.sdk'1(4@78"error: There is no SDK with the name or path '/Developer/SDKs/MacOSX10.4u.sdk'310624918#18446744073709551615#0#0(1@0"0(0#1#0"32088628383449192#0"0#
+
+CCopyStringsFile /Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/Release/SparkyController.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+r0
+
+CProcessInfoPlistFile /Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/Release/SparkyController.app/Contents/Info.plist Info.plist
+r0
+
+CStripNIB /Developer/fliners/johnandbrendan.com/sparky/SparkyController/English.lproj/MainMenu.nib
+r0
+
+CTouch /Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/Release/SparkyController.app
+r0
+

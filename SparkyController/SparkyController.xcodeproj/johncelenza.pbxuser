@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecturePreference = i386;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = B6E8A44D0DBA4B4100B3AF9D /* SparkyController */;
+		activeTarget = 8D1107260486CEB800E47090 /* SparkyController */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* SparkyController */,
+		);
+		breakpoints = (
+			B68EE97F0DBA4DF900F88111 /* SparkyController.m:57 */,
+			B68EE9A80DBA526F00F88111 /* SparkyController.m:87 */,
+			B6262B5E0DBAB2090035B51E /* SparkyController.m:103 */,
+		);
+		codeSenseManager = B6E8A45A0DBA4B6000B3AF9D /* Code sense */;
+		executables = (
+			B6E8A44D0DBA4B4100B3AF9D /* SparkyController */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					340,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 328850611;
+			PBXWorkspaceStateSaveDate = 328850611;
+		};
+		perUserProjectItems = {
+			B600D0311395EA4B00726543 /* PBXTextBookmark */ = B600D0311395EA4B00726543 /* PBXTextBookmark */;
+			B600D0371395EA4B00726543 /* PBXTextBookmark */ = B600D0371395EA4B00726543 /* PBXTextBookmark */;
+			B600D0381395EA4B00726543 /* PBXTextBookmark */ = B600D0381395EA4B00726543 /* PBXTextBookmark */;
+			B600D04C1395ED3B00726543 /* PBXTextBookmark */ = B600D04C1395ED3B00726543 /* PBXTextBookmark */;
+			B6909AF213B99B4000CF6B9C /* PBXTextBookmark */ = B6909AF213B99B4000CF6B9C /* PBXTextBookmark */;
+			B6909AF313B99B4000CF6B9C /* PBXTextBookmark */ = B6909AF313B99B4000CF6B9C /* PBXTextBookmark */;
+			B6AF6B641399C2AD00373656 /* PBXTextBookmark */ = B6AF6B641399C2AD00373656 /* PBXTextBookmark */;
+			B6AF6B651399C2AD00373656 /* PBXTextBookmark */ = B6AF6B651399C2AD00373656 /* PBXTextBookmark */;
+			B6E972731378E83A00463581 /* PBXTextBookmark */ = B6E972731378E83A00463581 /* PBXTextBookmark */;
+			B6E973281378F14A00463581 /* PBXTextBookmark */ = B6E973281378F14A00463581 /* PBXTextBookmark */;
+		};
+		sourceControlManager = B6E8A4590DBA4B6000B3AF9D /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* SparkyController */ = {
+		activeExec = 0;
+		executables = (
+			B6E8A44D0DBA4B4100B3AF9D /* SparkyController */,
+		);
+	};
+	B600D0311395EA4B00726543 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6D157E50DC5049A001D824C /* sparky_utils.c */;
+		name = "sparky_utils.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 135;
+		vrLoc = 59;
+	};
+	B600D0371395EA4B00726543 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6D157E50DC5049A001D824C /* sparky_utils.c */;
+		name = "sparky_utils.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 824;
+		vrLoc = 0;
+	};
+	B600D0381395EA4B00726543 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B68EE95F0DBA4C8000F88111 /* SparkyController.h */;
+		name = "SparkyController.h: 19";
+		rLen = 12;
+		rLoc = 335;
+		rType = 0;
+		vrLen = 714;
+		vrLoc = 0;
+	};
+	B600D04C1395ED3B00726543 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6E973151378F02500463581 /* main.mm */;
+		name = "main.mm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 262;
+		vrLoc = 0;
+	};
+	B6262B5E0DBAB2090035B51E /* SparkyController.m:103 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B68EE95A0DBA4C5000F88111 /* SparkyController.m */;
+		functionName = "-onMoveLeft:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 103;
+		modificationTime = 326264813.5874931;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B68EE95A0DBA4C5000F88111 /* SparkyController.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 30;
+		lastKnownFileType = sourcecode.c.objc;
+		name = SparkyController.m;
+		path = /Developer/btstack/example/SparkyController/SparkyController.m;
+		sourceTree = "<absolute>";
+	};
+	B68EE95E0DBA4C8000F88111 /* KeyReaderView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 430}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 384}";
+		};
+	};
+	B68EE95F0DBA4C8000F88111 /* SparkyController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1183, 1027}}";
+			sepNavSelRange = "{335, 12}";
+			sepNavVisRange = "{0, 714}";
+			sepNavVisRect = "{{0, 479}, {711, 429}}";
+			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
+		};
+	};
+	B68EE97F0DBA4DF900F88111 /* SparkyController.m:57 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B68EE95A0DBA4C5000F88111 /* SparkyController.m */;
+		functionName = "-onConnectBtn:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 57;
+		modificationTime = 326264813.587275;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B68EE9A80DBA526F00F88111 /* SparkyController.m:87 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B68EE95A0DBA4C5000F88111 /* SparkyController.m */;
+		functionName = "-onSendBtn:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 87;
+		modificationTime = 326264813.586839;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B6909AF213B99B4000CF6B9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6E972651378E7D500463581 /* SparkyController.mm */;
+		name = "SparkyController.mm: 105";
+		rLen = 12;
+		rLoc = 2381;
+		rType = 0;
+		vrLen = 122;
+		vrLoc = 2156;
+	};
+	B6909AF313B99B4000CF6B9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6E972651378E7D500463581 /* SparkyController.mm */;
+		name = "SparkyController.mm: 51";
+		rLen = 0;
+		rLoc = 955;
+		rType = 0;
+		vrLen = 1089;
+		vrLoc = 716;
+	};
+	B6AF6B641399C2AD00373656 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6E972651378E7D500463581 /* SparkyController.mm */;
+		name = "SparkyController.mm: 105";
+		rLen = 12;
+		rLoc = 2381;
+		rType = 0;
+		vrLen = 173;
+		vrLoc = 2156;
+	};
+	B6AF6B651399C2AD00373656 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6E972651378E7D500463581 /* SparkyController.mm */;
+		name = "SparkyController.mm: 51";
+		rLen = 0;
+		rLoc = 955;
+		rType = 0;
+		vrLen = 1179;
+		vrLoc = 716;
+	};
+	B6D157E50DC5049A001D824C /* sparky_utils.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {518, 2431}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{59, 135}";
+			sepNavWindowFrame = "{{38, 97}, {1242, 655}}";
+		};
+	};
+	B6D157E60DC5049A001D824C /* sparky_utils.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 430}}";
+			sepNavSelRange = "{348, 52}";
+			sepNavVisRange = "{0, 402}";
+			sepNavWindowFrame = "{{38, 99}, {1242, 655}}";
+		};
+	};
+	B6E8A44D0DBA4B4100B3AF9D /* SparkyController */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SparkyController;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	B6E8A4590DBA4B6000B3AF9D /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+		scmType = "";
+	};
+	B6E8A45A0DBA4B6000B3AF9D /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	B6E972651378E7D500463581 /* SparkyController.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1183, 6266}}";
+			sepNavSelRange = "{955, 0}";
+			sepNavVisRange = "{716, 1089}";
+			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
+		};
+	};
+	B6E972731378E83A00463581 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6D157E60DC5049A001D824C /* sparky_utils.h */;
+		name = "sparky_utils.h: 4";
+		rLen = 0;
+		rLoc = 135;
+		rType = 0;
+		vrLen = 308;
+		vrLoc = 0;
+	};
+	B6E972C91378EC8200463581 /* STJoystick_darwin.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {971, 10712}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{2908, 607}";
+		};
+	};
+	B6E973151378F02500463581 /* main.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1183, 502}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 262}";
+		};
+	};
+	B6E973281378F14A00463581 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6E972C91378EC8200463581 /* STJoystick_darwin.cpp */;
+		name = "STJoystick_darwin.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 607;
+		vrLoc = 2908;
+	};
+}

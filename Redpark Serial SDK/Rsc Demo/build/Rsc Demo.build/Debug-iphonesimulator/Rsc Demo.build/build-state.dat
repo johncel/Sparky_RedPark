@@ -1,0 +1,1019 @@
+TRsc Demo
+v3
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/Info.plist" Rsc_Demo-Info.plist
+cCompileXIB "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/MainWindow.xib"
+cCompileXIB "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/RootViewController.xib"
+cCopyPlistFile "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/PortconfigStrings.plist" PortconfigStrings.plist
+cCompileXIB "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/SelectionViewController.xib"
+cCompileXIB "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/iPad/MainWindow-iPad.xib"
+cCpResource serial_icon4_57x57.png "build/Debug-iphonesimulator/Rsc Demo.app/serial_icon4_57x57.png"
+cCpResource serial_icon4_114x114.png "build/Debug-iphonesimulator/Rsc Demo.app/serial_icon4_114x114.png"
+cCpResource Serial_icon4_72x72.png "build/Debug-iphonesimulator/Rsc Demo.app/Serial_icon4_72x72.png"
+cCpResource iTunesArtwork.png "build/Debug-iphonesimulator/Rsc Demo.app/iTunesArtwork.png"
+cCompileXIB "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/TextViewCell.xib"
+cCompileXIB "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/EditFieldView.xib"
+cCpResource /Developer/sparky_redpark/Roomba.png "build/Debug-iphonesimulator/Rsc Demo.app/Roomba.png"
+cCompileXIB "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/DashView.xib"
+cCpResource /Developer/sparky_redpark/sparky_dashboard_bg.png "build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_bg.png"
+cCpResource /Developer/sparky_redpark/sparky_dashboard_speed-1.png "build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed-1.png"
+cCpResource /Developer/sparky_redpark/sparky_dashboard_speed-2.png "build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed-2.png"
+cCpResource /Developer/sparky_redpark/sparky_dashboard_speed-3.png "build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed-3.png"
+cCpResource /Developer/sparky_redpark/sparky_dashboard_speed0.png "build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed0.png"
+cCpResource /Developer/sparky_redpark/sparky_dashboard_speed1.png "build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed1.png"
+cCpResource /Developer/sparky_redpark/sparky_dashboard_speed2.png "build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed2.png"
+cCpResource /Developer/sparky_redpark/sparky_dashboard_speed3.png "build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed3.png"
+cCpResource /Developer/sparky_redpark/indicator.png "build/Debug-iphonesimulator/Rsc Demo.app/indicator.png"
+cProcessPCH /var/folders/bb/b17kg4hs3ss3hx4syyp06fd80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Rsc_Demo_Prefix-axffzhcbghesfuawsuksaoxsjlkf/Rsc_Demo_Prefix.pch.gch Rsc_Demo_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+cProcessPCH /var/folders/bb/b17kg4hs3ss3hx4syyp06fd80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Rsc_Demo_Prefix-dmrlzuxddoukomgssmgraefnwwsa/Rsc_Demo_Prefix.pch.gch Rsc_Demo_Prefix.pch normal i386 c com.apple.compilers.llvmgcc42
+cCompileC "build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/Rsc_DemoAppDelegate.o" "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/Rsc_DemoAppDelegate.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC "build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/main.o" "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/main.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC "build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/SelectionViewController.o" "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/SelectionViewController.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC "build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/RootViewController.o" "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC "build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/sparky_utils.o" "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/sparky_utils.c" normal i386 c com.apple.compilers.llvmgcc42
+cCompileC "build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/EditFieldView.o" "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/EditFieldView.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC "build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/EditFieldViewController.o" "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/EditFieldViewController.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC "build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/DashViewController.o" "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/DashViewController.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cLd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/Rsc Demo" normal i386
+cGenerateDSYMFile "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app.dSYM" "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/Rsc Demo"
+cTouch "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004E7032AF0000000000000110
+t1315975855
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D93DF6900000000002999B0
+t1301536617
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ExternalAccessory.framework/ExternalAccessory
+c000000004D93EC8E000000000001AD00
+t1301539982
+s109824
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessory.h
+c000000004D93EC8B00000000000007C8
+t1301539979
+s1992
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EAAccessoryManager.h
+c000000004D93EC8B0000000000000454
+t1301539979
+s1108
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/EASession.h
+c000000004D93EC8B000000000000039C
+t1301539979
+s924
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/ExternalAccessoryDefines.h
+c000000004D93EC8B00000000000001F9
+t1301539979
+s505
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D93DFEA000000000029DA70
+t1301536746
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D93DFDD0000000000001466
+t1301536733
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D93ECBE0000000000000AA1
+t1301540030
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D93ED1B0000000000766870
+t1301540123
+s7759984
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/Availability.h
+c000000004D4F7A2B0000000000001B19
+t1297054251
+s6937
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/arpa/inet.h
+c000000004D93D5D80000000000001533
+t1301534168
+s5427
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/errno.h
+c000000004D4F6E9900000000000003EB
+t1297051289
+s1003
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/fcntl.h
+c000000004D4F6E9900000000000003EA
+t1297051289
+s1002
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/netdb.h
+c000000004D93D5D8000000000000307F
+t1301534168
+s12415
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/netinet/in.h
+c000000004D93E0AA0000000000006BAC
+t1301536938
+s27564
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/signal.h
+c000000004D4F6E9A00000000000014F0
+t1297051290
+s5360
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/stdio.h
+c000000004D4F6E9A0000000000004763
+t1297051290
+s18275
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/stdlib.h
+c000000004D4F6E9A00000000000030A7
+t1297051290
+s12455
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/string.h
+c000000004D4F6E9A0000000000001A3A
+t1297051290
+s6714
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/sys/ioctl.h
+c000000004D93E0AC000000000000116C
+t1301536940
+s4460
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/sys/socket.h
+c000000004D93E0AE0000000000005ACF
+t1301536942
+s23247
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/sys/types.h
+c000000004D93E0AE0000000000002905
+t1301536942
+s10501
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/unistd.h
+c000000004D4F6E9A0000000000006662
+t1297051290
+s26210
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/../inc/RscMgr.h
+c000000004E1D509000000000000010C9
+t1310544016
+s4297
+i<Foundation/Foundation.h>
+i<ExternalAccessory/ExternalAccessoryDefines.h>
+i<ExternalAccessory/EAAccessoryManager.h>
+i<ExternalAccessory/EAAccessory.h>
+i<ExternalAccessory/EASession.h>
+i"redparkSerial.h"
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/../lib/libRscMgrUniv.a
+c000000004E1D5055000000000002642C
+t1310543957
+s156716
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/DashViewController.h
+c000000004E920A7900000000000003D3
+t1318193785
+s979
+i<UIKit/UIKit.h>
+i"RootViewController.h"
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/DashViewController.m
+c000000004E920E0A00000000000012F7
+t1318194698
+s4855
+i"DashViewController.h"
+i"RootViewController.h"
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/EditFieldView.xib
+c000000004E2D02A80000000000002012
+t1311572648
+s8210
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/EditFieldViewController.h
+c000000004E2E34E40000000000000251
+t1311651044
+s593
+i<Foundation/Foundation.h>
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/EditFieldViewController.m
+c000000004E2E3A72000000000000115D
+t1311652466
+s4445
+i"RootViewController.h"
+i"EditFieldViewController.h"
+i"EditFieldView.h"
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.h
+c000000004E88D5BB00000000000007B0
+t1317590459
+s1968
+i<UIKit/UIKit.h>
+i"SelectionViewController.h"
+i"RscMgr.h"
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m
+c000000004E8A8FF3000000000000929C
+t1317703667
+s37532
+i"RootViewController.h"
+i"DashViewController.h"
+i"SelectionViewController.h"
+i"EditFieldViewController.h"
+i"RscMgr.h"
+i"Rsc_DemoAppDelegate.h"
+i"sparky_utils.h"
+i"createoi.h"
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/Rsc_DemoAppDelegate.h
+c000000004D728DF800000000000001A6
+t1299353080
+s422
+i<UIKit/UIKit.h>
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/Rsc_DemoAppDelegate.m
+c000000004D728DF80000000000000A7B
+t1299353080
+s2683
+i"Rsc_DemoAppDelegate.h"
+i"RootViewController.h"
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/SelectionViewController.h
+c000000004D728DF80000000000000306
+t1299353080
+s774
+i<UIKit/UIKit.h>
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/SelectionViewController.m
+c000000004DFFC9550000000000001584
+t1308608853
+s5508
+i"SelectionViewController.h"
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/createoi.h
+c000000004E2C86D60000000000001747
+t1311540950
+s5959
+i<unistd.h>
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/sparky_utils.c
+c000000004E2F9EB80000000000000F06
+t1311743672
+s3846
+i<stdlib.h>
+i<stdio.h>
+i<string.h>
+i<math.h>
+i<sys/types.h>
+i<sys/socket.h>
+i<sys/ioctl.h>
+i<netinet/in.h>
+i<arpa/inet.h>
+i<netdb.h>
+i<unistd.h>
+i<signal.h>
+i<fcntl.h>
+i<errno.h>
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/sparky_utils.h
+c000000004E2CA5B90000000000000192
+t1311548857
+s402
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/DashView.xib
+c000000004E7EB21A0000000000001774
+t1316925978
+s6004
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/EditFieldView.h
+c000000004E2C94EC00000000000001B9
+t1311544556
+s441
+i<Foundation/Foundation.h>
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/EditFieldView.m
+c000000004E2CFA4000000000000004AD
+t1311570496
+s1197
+i"EditFieldView.h"
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/MainWindow.xib
+c000000004DFFC95500000000000033E0
+t1308608853
+s13280
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/PortconfigStrings.plist
+c000000004D65B1AD000000000000029E
+t1298510253
+s670
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/RootViewController.xib
+c000000004D65B1AD00000000000043E3
+t1298510253
+s17379
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Rsc_Demo_Prefix.pch
+c000000004D65B1AD0000000000000142
+t1298510253
+s322
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/SelectionViewController.xib
+c000000004D71894C00000000000043B7
+t1299286348
+s17335
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Serial_icon4_72x72.png
+c000000004DFFC95500000000000013C7
+t1308608853
+s5063
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/TextViewCell.xib
+c000000004E2D02AE000000000000215E
+t1311572654
+s8542
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app
+t1318194658
+s918
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app.dSYM
+t1318194657
+s102
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/DashView.nib
+t1316925984
+s1231
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/EditFieldView.nib
+t1316903545
+s1466
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/Info.plist
+t1316903535
+s1089
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/MainWindow-iPad.nib
+t1316903543
+s3258
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/MainWindow.nib
+t1316903542
+s3256
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/PkgInfo
+t1316903535
+s8
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/PortconfigStrings.plist
+t1316903542
+s182
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/Roomba.png
+t1316903545
+s2631
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/RootViewController.nib
+t1316903542
+s1496
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/Rsc Demo
+t1318194657
+s123808
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/SelectionViewController.nib
+t1316903542
+s1494
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/Serial_icon4_72x72.png
+t1316903543
+s5063
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/TextViewCell.nib
+t1316903544
+s3196
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/iTunesArtwork.png
+t1316903543
+s63474
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/indicator.png
+t1318194076
+s4644
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/serial_icon4_114x114.png
+t1316903543
+s7581
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/serial_icon4_57x57.png
+t1316903543
+s4362
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_bg.png
+t1318193311
+s150498
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed-1.png
+t1318108151
+s6787
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed-2.png
+t1318108151
+s10936
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed-3.png
+t1318108151
+s14370
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed0.png
+t1318108151
+s2213
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed1.png
+t1318108151
+s6787
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed2.png
+t1318108151
+s10891
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed3.png
+t1318108151
+s14353
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/DashViewController.o
+t1318194656
+s58384
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/EditFieldView.o
+t1316903557
+s37176
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/EditFieldViewController.o
+t1317590583
+s53384
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/RootViewController.o
+t1318194085
+s137088
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/Rsc Demo.LinkFileList
+c000000004E7EABF000000000000004BA
+t1316924400
+s1210
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/Rsc_DemoAppDelegate.o
+t1317590583
+s50136
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/SelectionViewController.o
+t1316903557
+s46976
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/main.o
+t1316903556
+s3108
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/sparky_utils.o
+t1316903550
+s10880
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/iPad/MainWindow-iPad.xib
+c000000004DF3D3EE000000000000407E
+t1307825134
+s16510
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/iTunesArtwork.png
+c000000004DFFC955000000000000F7F2
+t1308608853
+s63474
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/main.m
+c000000004E2CF8A4000000000000013D
+t1311570084
+s317
+i<UIKit/UIKit.h>
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/serial_icon4_114x114.png
+c000000004DFFC9550000000000001D9D
+t1308608853
+s7581
+
+N/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/serial_icon4_57x57.png
+c000000004DFFC955000000000000110A
+t1308608853
+s4362
+
+N/Developer/sparky_redpark/Redpark Serial SDK/inc/redparkSerial.h
+c000000004E35C0E000000000000013E5
+t1312145632
+s5093
+
+N/Developer/sparky_redpark/Roomba.png
+c000000004E7E59AD0000000000000A47
+t1316903341
+s2631
+
+N/Developer/sparky_redpark/indicator.png
+c000000004E9209C70000000000001224
+t1318193607
+s4644
+
+N/Developer/sparky_redpark/sparky_dashboard_bg.png
+c000000004E9208960000000000024BE2
+t1318193302
+s150498
+
+N/Developer/sparky_redpark/sparky_dashboard_speed-1.png
+c000000004E90BA170000000000001A83
+t1318107671
+s6787
+
+N/Developer/sparky_redpark/sparky_dashboard_speed-2.png
+c000000004E90BA210000000000002AB8
+t1318107681
+s10936
+
+N/Developer/sparky_redpark/sparky_dashboard_speed-3.png
+c000000004E90BA300000000000003822
+t1318107696
+s14370
+
+N/Developer/sparky_redpark/sparky_dashboard_speed0.png
+c000000004E90BA0B00000000000008A5
+t1318107659
+s2213
+
+N/Developer/sparky_redpark/sparky_dashboard_speed1.png
+c000000004E90B9EF0000000000001A83
+t1318107631
+s6787
+
+N/Developer/sparky_redpark/sparky_dashboard_speed2.png
+c000000004E90B9D70000000000002A8B
+t1318107607
+s10891
+
+N/Developer/sparky_redpark/sparky_dashboard_speed3.png
+c000000004E90B9C00000000000003811
+t1318107584
+s14353
+
+N/var/folders/bb/b17kg4hs3ss3hx4syyp06fd80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Rsc_Demo_Prefix-axffzhcbghesfuawsuksaoxsjlkf/Rsc_Demo_Prefix.pch.gch
+t1316903556
+s12238256
+
+N/var/folders/bb/b17kg4hs3ss3hx4syyp06fd80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Rsc_Demo_Prefix-dmrlzuxddoukomgssmgraefnwwsa/Rsc_Demo_Prefix.pch.gch
+t1316903547
+s1335728
+
+NRsc_Demo-Info.plist
+c000000004E1D519100000000000006C6
+t1310544273
+s1734
+
+CBuild AST from "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/DashViewController.m"
+r0
+
+CBuild AST from "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/EditFieldViewController.m"
+r0
+
+CBuild AST from "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m"
+r0
+
+CBuild AST from "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/Rsc_DemoAppDelegate.m"
+r0
+
+CBuild AST from "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/SelectionViewController.m"
+r0
+
+CBuild AST from "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/sparky_utils.c"
+r0
+
+CBuild AST from "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/EditFieldView.m"
+r0
+
+CBuild AST from "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/main.m"
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies00a8ee8b4542b441^8522058c4542b441^---0#1#0#--18"Check dependencies
+
+CCompileC "build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/DashViewController.o" "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/DashViewController.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s339887500.284838
+e339887501.561023
+r1
+xCompileC
+xbuild/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/DashViewController.o
+x/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/DashViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/DashViewController.m: In function '-[DashViewController init]':
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/DashViewController.m:24: warning: conflicting types for '-(void)init'
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:72: warning: previous declaration of '-(id)init'
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/DashViewController.m: At top level:
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/DashViewController.m:153: warning: property 'roomba' requires method '-roomba' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/DashViewController.m:153: warning: property 'roomba' requires the method 'setRoomba:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/DashViewController.ma110498c4542b441^9acea68d4542b441^-998"/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/DashViewController.m: In function '-[DashViewController init]':/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/DashViewController.m:24: warning: conflicting types for '-(void)init'/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:72: warning: previous declaration of '-(id)init'/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/DashViewController.m: At top level:/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/DashViewController.m:153: warning: property 'roomba' requires method '-roomba' to be defined - use @synthesize, @dynamic or provide a method implementation/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/DashViewController.m:153: warning: property 'roomba' requires the method 'setRoomba:' to be defined - use @synthesize, @dynamic or provide a method implementation5(21%IDEActivityLogMessage2@35"Conflicting types for '-(void)init'-339887501#126#132#-1#-23%DVTTextDocumentLocation3@104"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/DashViewController.m0000000000000000^23#18446744073709551615#23#18446744073709551615#18446744073709551615#0#25"Conflicting types for '*'--2@35"Previous declaration of '-(id)init'-339887501#258#199#-1#-3@165"file://localhost/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h0000000000000000^71#18446744073709551615#71#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--32%IDEActivityLogContextInfoMessage4@13"At top level:-339887501#457#98#-0#-3@104"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/DashViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#19"LLVM GCC 4.2 Notice--2@120"Property 'roomba' requires method '-roomba' to be defined - use @synthesize, @dynamic or provide a method implementation-339887501#555#218#-1#-3@104"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/DashViewController.m0000000000000000^152#18446744073709551615#152#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@127"Property 'roomba' requires the method 'setRoomba:' to be defined - use @synthesize, @dynamic or provide a method implementation-339887501#773#225#-1#-3@104"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/DashViewController.m0000000000000000^152#18446744073709551615#152#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--0#0#0#-19%DVTDocumentLocation5@104"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/DashViewController.m0000000000000000^2351"CompileC "build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/DashViewController.o" Classes/DashViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-generated-files.hmap" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-own-target-headers.hmap" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-all-target-headers.hmap" -iquote "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-project-headers.hmap" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/include" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/DerivedSources/i386" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/DerivedSources" "-F/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator" -include /var/folders/bb/b17kg4hs3ss3hx4syyp06fd80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Rsc_Demo_Prefix-axffzhcbghesfuawsuksaoxsjlkf/Rsc_Demo_Prefix.pch -c "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/DashViewController.m" -o "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/DashViewController.o"
+
+CCompileC "build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/EditFieldView.o" "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/EditFieldView.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s338596357.582548
+e338596357.706207
+r1
+xCompileC
+xbuild/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/EditFieldView.o
+x/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/EditFieldView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/EditFieldView.m4a439505922eb441^acc8b405922eb441^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/EditFieldView.m0000000000000000^2315"CompileC "build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/EditFieldView.o" EditFieldView.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-generated-files.hmap" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-own-target-headers.hmap" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-all-target-headers.hmap" -iquote "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-project-headers.hmap" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/include" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/DerivedSources/i386" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/DerivedSources" "-F/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator" -include /var/folders/bb/b17kg4hs3ss3hx4syyp06fd80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Rsc_Demo_Prefix-axffzhcbghesfuawsuksaoxsjlkf/Rsc_Demo_Prefix.pch -c "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/EditFieldView.m" -o "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/EditFieldView.o"
+
+CCompileC "build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/EditFieldViewController.o" "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/EditFieldViewController.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s339283383.551784
+e339283383.911616
+r1
+xCompileC
+xbuild/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/EditFieldViewController.o
+x/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/EditFieldViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/EditFieldViewController.m80618db70d39b441^588ff7b70d39b441^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/EditFieldViewController.m0000000000000000^2371"CompileC "build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/EditFieldViewController.o" Classes/EditFieldViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-generated-files.hmap" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-own-target-headers.hmap" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-all-target-headers.hmap" -iquote "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-project-headers.hmap" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/include" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/DerivedSources/i386" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/DerivedSources" "-F/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator" -include /var/folders/bb/b17kg4hs3ss3hx4syyp06fd80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Rsc_Demo_Prefix-axffzhcbghesfuawsuksaoxsjlkf/Rsc_Demo_Prefix.pch -c "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/EditFieldViewController.m" -o "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/EditFieldViewController.o"
+
+CCompileC "build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/RootViewController.o" "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s339886876.111371
+e339886885.877110
+r1
+xCompileC
+xbuild/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/RootViewController.o
+x/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m: In function 'drive':
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:118: warning: unused variable 'acceleration_rad'
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:116: warning: unused variable 'srad'
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m: In function 'move_dir':
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:183: warning: unused variable 'rightPercent'
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:183: warning: unused variable 'leftPercent'
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:181: warning: unused variable 'charge'
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m: In function 'process_command_string':
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:304: warning: unused variable 'in_action'
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m: In function '-[RootViewController timerTicked:]':
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:566: warning: pointer targets in passing argument 2 of 'process_command_string' differ in signedness
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:569: warning: pointer targets in passing argument 1 of 'write:Length:' differ in signedness
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:588: warning: pointer targets in passing argument 1 of 'write:Length:' differ in signedness
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:561: warning: unused variable 'sys_command'
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:611: warning: pointer targets in passing argument 2 of 'process_command_string' differ in signedness
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m: In function '-[RootViewController init]':
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:643: warning: conflicting types for '-(void)init'
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:72: warning: previous declaration of '-(id)init'
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m: In function '-[RootViewController viewDidLoad]':
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:686: warning: multiple methods named '-init' found
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:72: warning: using '-(id)init'
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:643: warning: also found '-(void)init'
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:694: warning: multiple methods named '-init' found
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:72: warning: using '-(id)init'
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:643: warning: also found '-(void)init'
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:796: warning: class 'Rsc_DemoAppDelegate' does not implement the 'UITextViewDelegate' protocol
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m01a61c1c4342b441^ca8be0254342b441^-3711"/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m: In function 'drive':/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:118: warning: unused variable 'acceleration_rad'/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:116: warning: unused variable 'srad'/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m: In function 'move_dir':/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:183: warning: unused variable 'rightPercent'/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:183: warning: unused variable 'leftPercent'/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:181: warning: unused variable 'charge'/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m: In function 'process_command_string':/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:304: warning: unused variable 'in_action'/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m: In function '-[RootViewController timerTicked:]':/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:566: warning: pointer targets in passing argument 2 of 'process_command_string' differ in signedness/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:569: warning: pointer targets in passing argument 1 of 'write:Length:' differ in signedness/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:588: warning: pointer targets in passing argument 1 of 'write:Length:' differ in signedness/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:561: warning: unused variable 'sys_command'/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:611: warning: pointer targets in passing argument 2 of 'process_command_string' differ in signedness/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m: In function '-[RootViewController init]':/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:643: warning: conflicting types for '-(void)init'/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:72: warning: previous declaration of '-(id)init'/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m: In function '-[RootViewController viewDidLoad]':/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:686: warning: multiple methods named '-init' found/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:72: warning: using '-(id)init'/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:643: warning: also found '-(void)init'/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:694: warning: multiple methods named '-init' found/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:72: warning: using '-(id)init'/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:643: warning: also found '-(void)init'/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m:796: warning: class 'Rsc_DemoAppDelegate' does not implement the 'UITextViewDelegate' protocol20(21%IDEActivityLogMessage2@34"Unused variable 'acceleration_rad'-339886881#105#132#-1#-23%DVTTextDocumentLocation3@104"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/RootViewController.m0000000000000000^117#18446744073709551615#117#18446744073709551615#18446744073709551615#0#19"Unused variable '*'--2@22"Unused variable 'srad'-339886881#237#120#-1#-3@104"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/RootViewController.m0000000000000000^115#18446744073709551615#115#18446744073709551615#18446744073709551615#0#19"Unused variable '*'--2@30"Unused variable 'rightPercent'-339886882#465#128#-1#-3@104"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/RootViewController.m0000000000000000^182#18446744073709551615#182#18446744073709551615#18446744073709551615#0#19"Unused variable '*'--2@29"Unused variable 'leftPercent'-339886882#593#127#-1#-3@104"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/RootViewController.m0000000000000000^182#18446744073709551615#182#18446744073709551615#18446744073709551615#0#19"Unused variable '*'--2@24"Unused variable 'charge'-339886882#720#122#-1#-3@104"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/RootViewController.m0000000000000000^180#18446744073709551615#180#18446744073709551615#18446744073709551615#0#19"Unused variable '*'--2@27"Unused variable 'in_action'-339886882#964#125#-1#-3@104"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/RootViewController.m0000000000000000^303#18446744073709551615#303#18446744073709551615#18446744073709551615#0#19"Unused variable '*'--2@86"Pointer targets in passing argument 2 of 'process_command_string' differ in signedness-339886882#1223#184#-1#-3@104"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/RootViewController.m0000000000000000^565#18446744073709551615#565#18446744073709551615#18446744073709551615#0#65"Pointer targets in passing argument * of '*' differ in signedness--2@77"Pointer targets in passing argument 1 of 'write:Length:' differ in signedness-339886882#1407#175#-1#-3@104"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/RootViewController.m0000000000000000^568#18446744073709551615#568#18446744073709551615#18446744073709551615#0#65"Pointer targets in passing argument * of '*' differ in signedness--2@77"Pointer targets in passing argument 1 of 'write:Length:' differ in signedness-339886882#1582#175#-1#-3@104"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/RootViewController.m0000000000000000^587#18446744073709551615#587#18446744073709551615#18446744073709551615#0#65"Pointer targets in passing argument * of '*' differ in signedness--2@29"Unused variable 'sys_command'-339886882#1757#127#-1#-3@104"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/RootViewController.m0000000000000000^560#18446744073709551615#560#18446744073709551615#18446744073709551615#0#19"Unused variable '*'--2@86"Pointer targets in passing argument 2 of 'process_command_string' differ in signedness-339886882#1884#184#-1#-3@104"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/RootViewController.m0000000000000000^610#18446744073709551615#610#18446744073709551615#18446744073709551615#0#65"Pointer targets in passing argument * of '*' differ in signedness--2@35"Conflicting types for '-(void)init'-339886882#2194#133#-1#-3@104"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/RootViewController.m0000000000000000^642#18446744073709551615#642#18446744073709551615#18446744073709551615#0#25"Conflicting types for '*'--2@35"Previous declaration of '-(id)init'-339886882#2327#199#-1#-3@165"file://localhost/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h0000000000000000^71#18446744073709551615#71#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@36"Multiple methods named '-init' found-339886882#2659#134#-1#-3@104"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/RootViewController.m0000000000000000^685#18446744073709551615#685#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@17"Using '-(id)init'-339886882#2793#181#-1#-3@165"file://localhost/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h0000000000000000^71#18446744073709551615#71#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@24"Also found '-(void)init'-339886882#2974#122#-1#-3@104"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/RootViewController.m0000000000000000^642#18446744073709551615#642#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@36"Multiple methods named '-init' found-339886882#3096#134#-1#-3@104"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/RootViewController.m0000000000000000^693#18446744073709551615#693#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@17"Using '-(id)init'-339886882#3230#181#-1#-3@165"file://localhost/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h0000000000000000^71#18446744073709551615#71#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@24"Also found '-(void)init'-339886882#3411#122#-1#-3@104"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/RootViewController.m0000000000000000^642#18446744073709551615#642#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@80"Class 'Rsc_DemoAppDelegate' does not implement the 'UITextViewDelegate' protocol-339886882#3533#178#-1#-3@104"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/RootViewController.m0000000000000000^795#18446744073709551615#795#18446744073709551615#18446744073709551615#0#45"Class '*' does not implement the '*' protocol--0#0#0#-19%DVTDocumentLocation4@104"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/RootViewController.m0000000000000000^2351"CompileC "build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/RootViewController.o" Classes/RootViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-generated-files.hmap" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-own-target-headers.hmap" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-all-target-headers.hmap" -iquote "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-project-headers.hmap" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/include" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/DerivedSources/i386" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/DerivedSources" "-F/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator" -include /var/folders/bb/b17kg4hs3ss3hx4syyp06fd80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Rsc_Demo_Prefix-axffzhcbghesfuawsuksaoxsjlkf/Rsc_Demo_Prefix.pch -c "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/RootViewController.m" -o "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/RootViewController.o"
+
+CCompileC "build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/Rsc_DemoAppDelegate.o" "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/Rsc_DemoAppDelegate.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s339283381.744506
+e339283383.546633
+r1
+xCompileC
+xbuild/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/Rsc_DemoAppDelegate.o
+x/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/Rsc_DemoAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/Rsc_DemoAppDelegate.m34bbbeb50d39b441^97ab93b70d39b441^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/Rsc_DemoAppDelegate.m0000000000000000^2355"CompileC "build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/Rsc_DemoAppDelegate.o" Classes/Rsc_DemoAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-generated-files.hmap" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-own-target-headers.hmap" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-all-target-headers.hmap" -iquote "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-project-headers.hmap" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/include" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/DerivedSources/i386" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/DerivedSources" "-F/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator" -include /var/folders/bb/b17kg4hs3ss3hx4syyp06fd80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Rsc_Demo_Prefix-axffzhcbghesfuawsuksaoxsjlkf/Rsc_Demo_Prefix.pch -c "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/Rsc_DemoAppDelegate.m" -o "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/Rsc_DemoAppDelegate.o"
+
+CCompileC "build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/SelectionViewController.o" "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/SelectionViewController.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s338596357.468030
+e338596357.581270
+r1
+xCompileC
+xbuild/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/SelectionViewController.o
+x/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/SelectionViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/SelectionViewController.m38f37705922eb441^d1cb9405922eb441^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/SelectionViewController.m0000000000000000^2371"CompileC "build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/SelectionViewController.o" Classes/SelectionViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-generated-files.hmap" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-own-target-headers.hmap" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-all-target-headers.hmap" -iquote "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-project-headers.hmap" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/include" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/DerivedSources/i386" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/DerivedSources" "-F/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator" -include /var/folders/bb/b17kg4hs3ss3hx4syyp06fd80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Rsc_Demo_Prefix-axffzhcbghesfuawsuksaoxsjlkf/Rsc_Demo_Prefix.pch -c "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/SelectionViewController.m" -o "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/SelectionViewController.o"
+
+CCompileC "build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/main.o" "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/main.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s338596356.498673
+e338596356.716002
+r1
+xCompileC
+xbuild/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/main.o
+x/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/main.m14cd7f04922eb441^0f62b704922eb441^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/main.m0000000000000000^2279"CompileC "build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/main.o" main.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-generated-files.hmap" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-own-target-headers.hmap" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-all-target-headers.hmap" -iquote "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-project-headers.hmap" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/include" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/DerivedSources/i386" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/DerivedSources" "-F/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator" -include /var/folders/bb/b17kg4hs3ss3hx4syyp06fd80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Rsc_Demo_Prefix-axffzhcbghesfuawsuksaoxsjlkf/Rsc_Demo_Prefix.pch -c "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/main.m" -o "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/main.o"
+
+CCompileC "build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/sparky_utils.o" "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/sparky_utils.c" normal i386 c com.apple.compilers.llvmgcc42
+s338596349.441289
+e338596350.926618
+r1
+xCompileC
+xbuild/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/sparky_utils.o
+x/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/sparky_utils.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/sparky_utils.c: In function 'open_socket':
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/sparky_utils.c:66: warning: unused variable 'fd'
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/sparky_utils.c:65: warning: unused variable 'len'
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/sparky_utils.c:64: warning: unused variable 'i'
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/sparky_utils.c: In function 'connect_server':
+o/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/sparky_utils.c:152: warning: implicit declaration of function 'connect_server_ex'
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/sparky_utils.c0d1771fd912eb441^037853ff912eb441^-690"/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/sparky_utils.c: In function 'open_socket':/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/sparky_utils.c:66: warning: unused variable 'fd'/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/sparky_utils.c:65: warning: unused variable 'len'/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/sparky_utils.c:64: warning: unused variable 'i'/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/sparky_utils.c: In function 'connect_server':/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/sparky_utils.c:152: warning: implicit declaration of function 'connect_server_ex'4(21%IDEActivityLogMessage2@20"Unused variable 'fd'-338596350#105#111#-1#-23%DVTTextDocumentLocation3@98"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/sparky_utils.c0000000000000000^65#18446744073709551615#65#18446744073709551615#18446744073709551615#0#19"Unused variable '*'--2@21"Unused variable 'len'-338596350#216#112#-1#-3@98"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/sparky_utils.c0000000000000000^64#18446744073709551615#64#18446744073709551615#18446744073709551615#0#19"Unused variable '*'--2@19"Unused variable 'i'-338596350#328#110#-1#-3@98"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/sparky_utils.c0000000000000000^63#18446744073709551615#63#18446744073709551615#18446744073709551615#0#19"Unused variable '*'--2@52"Implicit declaration of function 'connect_server_ex'-338596350#546#144#-1#-3@98"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/sparky_utils.c0000000000000000^151#18446744073709551615#151#18446744073709551615#18446744073709551615#0#36"Implicit declaration of function '*'--0#0#0#-19%DVTDocumentLocation4@98"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/sparky_utils.c0000000000000000^2263"CompileC "build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/sparky_utils.o" Classes/sparky_utils.c normal i386 c com.apple.compilers.llvmgcc42    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-generated-files.hmap" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-own-target-headers.hmap" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-all-target-headers.hmap" -iquote "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-project-headers.hmap" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/include" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/DerivedSources/i386" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/DerivedSources" "-F/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator" -include /var/folders/bb/b17kg4hs3ss3hx4syyp06fd80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Rsc_Demo_Prefix-dmrlzuxddoukomgssmgraefnwwsa/Rsc_Demo_Prefix.pch -c "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/sparky_utils.c" -o "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/sparky_utils.o"
+
+CCompileXIB "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/EditFieldView.xib"
+s338596345.014937
+e338596345.421929
+r1
+xCompileXIB
+x/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/EditFieldView.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compiling /Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/EditFieldView.xibf3e703f9912eb441^ec136cf9912eb441^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/EditFieldView.xib0000000000000000^682"CompileXIB Classes/EditFieldView.xib    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/EditFieldView.nib" "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Classes/EditFieldView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+
+CCompileXIB "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/DashView.xib"
+s338618780.684180
+e338618784.741552
+r1
+xCompileXIB
+x/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/DashView.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compiling /Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/DashView.xib693aaf9ce92eb441^5de1bda0e92eb441^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/DashView.xib0000000000000000^651"CompileXIB DashView.xib    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/DashView.nib" "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/DashView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+
+CCompileXIB "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/MainWindow.xib"
+s338596335.339090
+e338596342.807950
+r1
+xCompileXIB
+x/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/MainWindow.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compiling /Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/MainWindow.xib47e956ef912eb441^9fe8cef6912eb441^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/MainWindow.xib0000000000000000^657"CompileXIB MainWindow.xib    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/MainWindow.nib" "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+
+CCompileXIB "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/RootViewController.xib"
+s338596335.339358
+e338596342.364836
+r1
+xCompileXIB
+x/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/RootViewController.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compiling /Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/RootViewController.xib3eb457ef912eb441^357a5df6912eb441^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/RootViewController.xib0000000000000000^681"CompileXIB RootViewController.xib    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/RootViewController.nib" "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/RootViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+
+CCompileXIB "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/SelectionViewController.xib"
+s338596342.809236
+e338596342.907773
+r1
+xCompileXIB
+x/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/SelectionViewController.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compiling /Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/SelectionViewController.xibff3ecff6912eb441^fc70e8f6912eb441^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/SelectionViewController.xib0000000000000000^696"CompileXIB SelectionViewController.xib    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/SelectionViewController.nib" "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/SelectionViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+
+CCompileXIB "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/TextViewCell.xib"
+s338596343.566923
+e338596345.013652
+r1
+xCompileXIB
+x/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/TextViewCell.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compiling /Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/TextViewCell.xibe73691f7912eb441^ea9403f9912eb441^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/TextViewCell.xib0000000000000000^663"CompileXIB TextViewCell.xib    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/TextViewCell.nib" "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/TextViewCell.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+
+CCompileXIB "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/iPad/MainWindow-iPad.xib"
+s338596342.909041
+e338596343.465301
+r1
+xCompileXIB
+x/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/iPad/MainWindow-iPad.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compiling /Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/iPad/MainWindow-iPad.xib14cce8f6912eb441^7b3277f7912eb441^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/iPad/MainWindow-iPad.xib0000000000000000^682"CompileXIB iPad/MainWindow-iPad.xib    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/MainWindow-iPad.nib" "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/iPad/MainWindow-iPad.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+
+CCopyPlistFile "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/PortconfigStrings.plist" PortconfigStrings.plist
+s338596342.366137
+e338596342.398987
+r1
+xCopyPlistFile
+x/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/PortconfigStrings.plist
+xPortconfigStrings.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Copy PortconfigStrings.plist56d35df6912eb441^f72266f6912eb441^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/PortconfigStrings.plist0000000000000000^472"CopyPlistFile "build/Debug-iphonesimulator/Rsc Demo.app/PortconfigStrings.plist" PortconfigStrings.plist    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app" -- PortconfigStrings.plist
+
+CCpResource /Developer/sparky_redpark/Roomba.png "build/Debug-iphonesimulator/Rsc Demo.app/Roomba.png"
+s338596345.015754
+e338596345.073158
+r1
+xCpResource
+x/Developer/sparky_redpark/Roomba.png
+xbuild/Debug-iphonesimulator/Rsc Demo.app/Roomba.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Debug-iphonesimulator/Rsc Demo.app/Roomba.png401804f9912eb441^fab812f9912eb441^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/build/Debug-iphonesimulator/Rsc%20Demo.app/Roomba.png00f4dc3eddffdf42^529"CpResource /Developer/sparky_redpark/Roomba.png "build/Debug-iphonesimulator/Rsc Demo.app/Roomba.png"    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/sparky_redpark/Roomba.png "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app"
+
+CCpResource /Developer/sparky_redpark/indicator.png "build/Debug-iphonesimulator/Rsc Demo.app/indicator.png"
+s339886876.041678
+e339886876.053307
+r1
+xCpResource
+x/Developer/sparky_redpark/indicator.png
+xbuild/Debug-iphonesimulator/Rsc Demo.app/indicator.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphonesimulator/Rsc Demo.app/indicator.png83c00a1c4342b441^6e69291c4342b441^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/build/Debug-iphonesimulator/Rsc%20Demo.app/indicator.png00f424c8dcffdf42^538"CpResource /Developer/sparky_redpark/indicator.png "build/Debug-iphonesimulator/Rsc Demo.app/indicator.png"    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/sparky_redpark/indicator.png "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app"
+
+CCpResource /Developer/sparky_redpark/sparky_dashboard_bg.png "build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_bg.png"
+s339886111.577172
+e339886111.638024
+r1
+xCpResource
+x/Developer/sparky_redpark/sparky_dashboard_bg.png
+xbuild/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_bg.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_bg.pngfbe5931f4042b441^f035b01f4042b441^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/build/Debug-iphonesimulator/Rsc%20Demo.app/sparky_dashboard_bg.png0000000000000000^568"CpResource /Developer/sparky_redpark/sparky_dashboard_bg.png "build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_bg.png"    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/sparky_redpark/sparky_dashboard_bg.png "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app"
+
+CCpResource /Developer/sparky_redpark/sparky_dashboard_speed-1.png "build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed-1.png"
+s339800951.958467
+e339800951.961585
+r1
+xCpResource
+x/Developer/sparky_redpark/sparky_dashboard_speed-1.png
+xbuild/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed-1.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed-1.png3672f577f340b441^2a8bf677f340b441^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/build/Debug-iphonesimulator/Rsc%20Demo.app/sparky_dashboard_speed-1.png00f424c8dcffdf42^583"CpResource /Developer/sparky_redpark/sparky_dashboard_speed-1.png "build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed-1.png"    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/sparky_redpark/sparky_dashboard_speed-1.png "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app"
+
+CCpResource /Developer/sparky_redpark/sparky_dashboard_speed-2.png "build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed-2.png"
+s339800951.958980
+e339800951.962043
+r1
+xCpResource
+x/Developer/sparky_redpark/sparky_dashboard_speed-2.png
+xbuild/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed-2.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed-2.pngfc8ef577f340b441^2a8ff677f340b441^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/build/Debug-iphonesimulator/Rsc%20Demo.app/sparky_dashboard_speed-2.png00f424c8dcffdf42^583"CpResource /Developer/sparky_redpark/sparky_dashboard_speed-2.png "build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed-2.png"    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/sparky_redpark/sparky_dashboard_speed-2.png "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app"
+
+CCpResource /Developer/sparky_redpark/sparky_dashboard_speed-3.png "build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed-3.png"
+s339800951.962749
+e339800951.965592
+r1
+xCpResource
+x/Developer/sparky_redpark/sparky_dashboard_speed-3.png
+xbuild/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed-3.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed-3.png198ff677f340b441^b630f777f340b441^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/build/Debug-iphonesimulator/Rsc%20Demo.app/sparky_dashboard_speed-3.png00f424c8dcffdf42^583"CpResource /Developer/sparky_redpark/sparky_dashboard_speed-3.png "build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed-3.png"    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/sparky_redpark/sparky_dashboard_speed-3.png "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app"
+
+CCpResource /Developer/sparky_redpark/sparky_dashboard_speed0.png "build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed0.png"
+s339800951.964319
+e339800951.967764
+r1
+xCpResource
+x/Developer/sparky_redpark/sparky_dashboard_speed0.png
+xbuild/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed0.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed0.png17f4f677f340b441^c6bff777f340b441^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/build/Debug-iphonesimulator/Rsc%20Demo.app/sparky_dashboard_speed0.png00f424c8dcffdf42^580"CpResource /Developer/sparky_redpark/sparky_dashboard_speed0.png "build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed0.png"    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/sparky_redpark/sparky_dashboard_speed0.png "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app"
+
+CCpResource /Developer/sparky_redpark/sparky_dashboard_speed1.png "build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed1.png"
+s339800951.967244
+e339800951.969844
+r1
+xCpResource
+x/Developer/sparky_redpark/sparky_dashboard_speed1.png
+xbuild/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed1.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed1.png42aff777f340b441^f547f877f340b441^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/build/Debug-iphonesimulator/Rsc%20Demo.app/sparky_dashboard_speed1.png00f424c8dcffdf42^580"CpResource /Developer/sparky_redpark/sparky_dashboard_speed1.png "build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed1.png"    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/sparky_redpark/sparky_dashboard_speed1.png "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app"
+
+CCpResource /Developer/sparky_redpark/sparky_dashboard_speed2.png "build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed2.png"
+s339800951.969111
+e339800951.972147
+r1
+xCpResource
+x/Developer/sparky_redpark/sparky_dashboard_speed2.png
+xbuild/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed2.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed2.png3127f877f340b441^3cdef877f340b441^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/build/Debug-iphonesimulator/Rsc%20Demo.app/sparky_dashboard_speed2.png00f424c8dcffdf42^580"CpResource /Developer/sparky_redpark/sparky_dashboard_speed2.png "build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed2.png"    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/sparky_redpark/sparky_dashboard_speed2.png "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app"
+
+CCpResource /Developer/sparky_redpark/sparky_dashboard_speed3.png "build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed3.png"
+s339800951.971621
+e339800951.974529
+r1
+xCpResource
+x/Developer/sparky_redpark/sparky_dashboard_speed3.png
+xbuild/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed3.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed3.png4fcef877f340b441^d179f977f340b441^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/build/Debug-iphonesimulator/Rsc%20Demo.app/sparky_dashboard_speed3.png00f424c8dcffdf42^580"CpResource /Developer/sparky_redpark/sparky_dashboard_speed3.png "build/Debug-iphonesimulator/Rsc Demo.app/sparky_dashboard_speed3.png"    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/sparky_redpark/sparky_dashboard_speed3.png "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app"
+
+CCpResource Serial_icon4_72x72.png "build/Debug-iphonesimulator/Rsc Demo.app/Serial_icon4_72x72.png"
+s338596343.496976
+e338596343.536140
+r1
+xCpResource
+xSerial_icon4_72x72.png
+xbuild/Debug-iphonesimulator/Rsc Demo.app/Serial_icon4_72x72.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug-iphonesimulator/Rsc Demo.app/Serial_icon4_72x72.png594d7ff7912eb441^cb4c89f7912eb441^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/build/Debug-iphonesimulator/Rsc%20Demo.app/Serial_icon4_72x72.png00f4dc3eddffdf42^569"CpResource Serial_icon4_72x72.png "build/Debug-iphonesimulator/Rsc Demo.app/Serial_icon4_72x72.png"    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Serial_icon4_72x72.png" "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app"
+
+CCpResource iTunesArtwork.png "build/Debug-iphonesimulator/Rsc Demo.app/iTunesArtwork.png"
+s338596343.537409
+e338596343.565619
+r1
+xCpResource
+xiTunesArtwork.png
+xbuild/Debug-iphonesimulator/Rsc Demo.app/iTunesArtwork.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphonesimulator/Rsc Demo.app/iTunesArtwork.png37a889f7912eb441^8cd790f7912eb441^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/build/Debug-iphonesimulator/Rsc%20Demo.app/iTunesArtwork.png00f4dc3eddffdf42^554"CpResource iTunesArtwork.png "build/Debug-iphonesimulator/Rsc Demo.app/iTunesArtwork.png"    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/iTunesArtwork.png" "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app"
+
+CCpResource serial_icon4_114x114.png "build/Debug-iphonesimulator/Rsc Demo.app/serial_icon4_114x114.png"
+s338596343.490518
+e338596343.495686
+r1
+xCpResource
+xserial_icon4_114x114.png
+xbuild/Debug-iphonesimulator/Rsc Demo.app/serial_icon4_114x114.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Debug-iphonesimulator/Rsc Demo.app/serial_icon4_114x114.png37a87df7912eb441^b3ef7ef7912eb441^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/build/Debug-iphonesimulator/Rsc%20Demo.app/serial_icon4_114x114.png00f4dc3eddffdf42^575"CpResource serial_icon4_114x114.png "build/Debug-iphonesimulator/Rsc Demo.app/serial_icon4_114x114.png"    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/serial_icon4_114x114.png" "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app"
+
+CCpResource serial_icon4_57x57.png "build/Debug-iphonesimulator/Rsc Demo.app/serial_icon4_57x57.png"
+s338596343.466642
+e338596343.489114
+r1
+xCpResource
+xserial_icon4_57x57.png
+xbuild/Debug-iphonesimulator/Rsc Demo.app/serial_icon4_57x57.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug-iphonesimulator/Rsc Demo.app/serial_icon4_57x57.png828d77f7912eb441^e44a7df7912eb441^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/build/Debug-iphonesimulator/Rsc%20Demo.app/serial_icon4_57x57.png00f4dc3eddffdf42^569"CpResource serial_icon4_57x57.png "build/Debug-iphonesimulator/Rsc Demo.app/serial_icon4_57x57.png"    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/serial_icon4_57x57.png" "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app"
+
+CGenerateDSYMFile "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app.dSYM" "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/Rsc Demo"
+s339887502.013172
+e339887502.241465
+r1
+xGenerateDSYMFile
+x/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app.dSYM
+x/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/Rsc Demo
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Generating /Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app.dSYM42b2048e4542b441^eb8b548e4542b441^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/build/Debug-iphonesimulator/Rsc%20Demo.app.dSYM/0000000000000000^554"GenerateDSYMFile "build/Debug-iphonesimulator/Rsc Demo.app.dSYM" "build/Debug-iphonesimulator/Rsc Demo.app/Rsc Demo"    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/Rsc Demo" -o "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app.dSYM"
+
+CLd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/Rsc Demo" normal i386
+s339887501.646311
+e339887502.006292
+r1
+xLd
+x/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/Rsc Demo
+xnormal
+xi386
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Link /Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/Rsc Demo209aa58d4542b441^caa5018e4542b441^---0#0#0#--1230"Ld "build/Debug-iphonesimulator/Rsc Demo.app/Rsc Demo" normal i386    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk "-L/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator" "-L/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/../lib" "-L/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/.." "-F/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator" -filelist "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Objects-normal/i386/Rsc Demo.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework ExternalAccessory -lRscMgrUniv -o "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/Rsc Demo"
+
+CProcessInfoPlistFile "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/Info.plist" Rsc_Demo-Info.plist
+s338596335.206315
+e338596335.260407
+r1
+xProcessInfoPlistFile
+x/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/Info.plist
+xRsc_Demo-Info.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection27"Process Rsc_Demo-Info.plistff223cef912eb441^198f56ef912eb441^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Rsc_Demo-Info.plist0000000000000000^628"ProcessInfoPlistFile "build/Debug-iphonesimulator/Rsc Demo.app/Info.plist" Rsc_Demo-Info.plist    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Rsc_Demo-Info.plist -genpkginfo "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app/Info.plist"
+
+CProcessPCH /Users/johncelenza/Library/Developer/Xcode/DerivedData/Rsc_Demo-ekzwzjzxwpdjcghetstguarjshjt/Index/PrecompiledHeaders/Rsc_Demo_Prefix-ahgvvwuflsofklaitrzlrrkmntqf_ast/Rsc_Demo_Prefix.pch.pth Rsc_Demo_Prefix.pch normal i386 c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/johncelenza/Library/Developer/Xcode/DerivedData/Rsc_Demo-ekzwzjzxwpdjcghetstguarjshjt/Index/PrecompiledHeaders/Rsc_Demo_Prefix-ekkhpigydtzbpfamjtswpjefrbnc_ast/Rsc_Demo_Prefix.pch.pth Rsc_Demo_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/bb/b17kg4hs3ss3hx4syyp06fd80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Rsc_Demo_Prefix-axffzhcbghesfuawsuksaoxsjlkf/Rsc_Demo_Prefix.pch.gch Rsc_Demo_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+s338596345.430637
+e338596356.490442
+r1
+xProcessPCH
+x/var/folders/bb/b17kg4hs3ss3hx4syyp06fd80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Rsc_Demo_Prefix-axffzhcbghesfuawsuksaoxsjlkf/Rsc_Demo_Prefix.pch.gch
+xRsc_Demo_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Precompile Rsc_Demo_Prefix.pch245e6ef9912eb441^e38c7d04922eb441^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Rsc_Demo_Prefix.pch0000000000000000^2244"ProcessPCH /var/folders/bb/b17kg4hs3ss3hx4syyp06fd80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Rsc_Demo_Prefix-axffzhcbghesfuawsuksaoxsjlkf/Rsc_Demo_Prefix.pch.gch Rsc_Demo_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-generated-files.hmap" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-own-target-headers.hmap" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-all-target-headers.hmap" -iquote "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-project-headers.hmap" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/include" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/DerivedSources/i386" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/DerivedSources" "-F/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator" -c "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Rsc_Demo_Prefix.pch" -o /var/folders/bb/b17kg4hs3ss3hx4syyp06fd80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Rsc_Demo_Prefix-axffzhcbghesfuawsuksaoxsjlkf/Rsc_Demo_Prefix.pch.gch
+
+CProcessPCH /var/folders/bb/b17kg4hs3ss3hx4syyp06fd80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Rsc_Demo_Prefix-dmrlzuxddoukomgssmgraefnwwsa/Rsc_Demo_Prefix.pch.gch Rsc_Demo_Prefix.pch normal i386 c com.apple.compilers.llvmgcc42
+s338596345.431549
+e338596349.434529
+r1
+xProcessPCH
+x/var/folders/bb/b17kg4hs3ss3hx4syyp06fd80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Rsc_Demo_Prefix-dmrlzuxddoukomgssmgraefnwwsa/Rsc_Demo_Prefix.pch.gch
+xRsc_Demo_Prefix.pch
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Precompile Rsc_Demo_Prefix.pchb39a6ef9912eb441^603c6ffd912eb441^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Rsc_Demo_Prefix.pch0000000000000000^2180"ProcessPCH /var/folders/bb/b17kg4hs3ss3hx4syyp06fd80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Rsc_Demo_Prefix-dmrlzuxddoukomgssmgraefnwwsa/Rsc_Demo_Prefix.pch.gch Rsc_Demo_Prefix.pch normal i386 c com.apple.compilers.llvmgcc42    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-generated-files.hmap" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-own-target-headers.hmap" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-all-target-headers.hmap" -iquote "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/Rsc Demo-project-headers.hmap" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/include" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/DerivedSources/i386" "-I/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Rsc Demo.build/Debug-iphonesimulator/Rsc Demo.build/DerivedSources" "-F/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator" -c "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/Rsc_Demo_Prefix.pch" -o /var/folders/bb/b17kg4hs3ss3hx4syyp06fd80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Rsc_Demo_Prefix-dmrlzuxddoukomgssmgraefnwwsa/Rsc_Demo_Prefix.pch.gch
+
+CTouch "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app"
+s339887502.250465
+e339887502.269951
+r1
+xTouch
+x/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Touch /Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app6632408e4542b441^1ba0548e4542b441^---0#0#0#--362"Touch "build/Debug-iphonesimulator/Rsc Demo.app"    cd "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Developer/sparky_redpark/Redpark Serial SDK/Rsc Demo/build/Debug-iphonesimulator/Rsc Demo.app"
+
