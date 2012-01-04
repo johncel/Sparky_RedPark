@@ -17,6 +17,9 @@
 
 short max_accel = 64;
 short max_accel_rad = 2;
+#define kMAXVEL 1000 //maximum velocity for iRobot
+#define kMINVEL -1000 //maximum reverse velocity for iRobot
+
 
  char SERVER_NAME[1024];
 char USER_NAME[1024];
@@ -107,6 +110,8 @@ int min(int a, int b)
  *      turning circle to the center of the Create.
  *
  *      \return         0 if successful or -1 otherwise
+ 
+           this function applies accelerations accordingly
  */
 int drive (uint8_t *data, int *len, short vel, short rad)
 {
@@ -141,8 +146,8 @@ int drive (uint8_t *data, int *len, short vel, short rad)
     //srad = rad;
     
     //keep args within Create limits
-    vel = MIN_IROBOT(500, vel);
-    vel = MAX_IROBOT(-500, vel);
+    vel = MIN_IROBOT(kMAXVEL, vel);
+    vel = MAX_IROBOT(kMINVEL, vel);
     rad = MIN_IROBOT(2000, rad);
     rad = MAX_IROBOT(-2000, rad);
     
@@ -482,7 +487,12 @@ int process_command_string(char *command, uint8_t *data, int *len)
     return 0;
 }
 
-
+/* timerTicked
+ 
+  this function gets called every 1/10th of a second from a timer.
+  it reads from the servercontroller to see if any change in motion needs to be sent to the robot
+  the function handles the messages from servercontroller and calls drive with requested speed and radiusapplies accelerations accordingly
+ */
 
 - (void)timerTicked:(NSTimer*)timer {
     

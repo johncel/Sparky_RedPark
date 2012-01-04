@@ -14,32 +14,6 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "16"
          endingLineNumber = "16">
-         <Locations>
-            <Location
-               shouldBeEnabled = "Yes"
-               ignoreCount = "0"
-               continueAfterRunningActions = "No"
-               symbolName = "-[EditFieldViewController updateString]"
-               urlString = "file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/EditFieldViewController.m"
-               timestampString = "344673867.318664"
-               startingColumnNumber = "9223372036854775807"
-               endingColumnNumber = "9223372036854775807"
-               startingLineNumber = "20"
-               endingLineNumber = "20">
-            </Location>
-            <Location
-               shouldBeEnabled = "Yes"
-               ignoreCount = "0"
-               continueAfterRunningActions = "No"
-               symbolName = "-[EditFieldViewController setUpdateString:]"
-               urlString = "file://localhost/Developer/sparky_redpark/Redpark%20Serial%20SDK/Rsc%20Demo/Classes/EditFieldViewController.m"
-               timestampString = "344673867.319031"
-               startingColumnNumber = "9223372036854775807"
-               endingColumnNumber = "9223372036854775807"
-               startingLineNumber = "20"
-               endingLineNumber = "20">
-            </Location>
-         </Locations>
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
@@ -47,11 +21,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "Classes/RootViewController.m"
-         timestampString = "339396500.784944"
+         timestampString = "347388798.213923"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "1015"
-         endingLineNumber = "1015"
+         startingLineNumber = "1025"
+         endingLineNumber = "1025"
          landmarkName = "-tableView:didSelectRowAtIndexPath:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -89,11 +63,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "Classes/RootViewController.m"
-         timestampString = "339396500.784944"
+         timestampString = "347388798.213923"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "903"
-         endingLineNumber = "903"
+         startingLineNumber = "913"
+         endingLineNumber = "913"
          landmarkName = "@implementation RootViewController"
          landmarkType = "3">
       </FileBreakpoint>
@@ -131,11 +105,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "Classes/RootViewController.m"
-         timestampString = "339396500.784944"
+         timestampString = "347388798.213923"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "463"
-         endingLineNumber = "463"
+         startingLineNumber = "468"
+         endingLineNumber = "468"
          landmarkName = "process_command_string()"
          landmarkType = "7">
       </FileBreakpoint>
@@ -145,11 +119,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "Classes/RootViewController.m"
-         timestampString = "339396500.784944"
+         timestampString = "347388798.213923"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "787"
-         endingLineNumber = "787"
+         startingLineNumber = "797"
+         endingLineNumber = "797"
          landmarkName = "-viewDidLoad"
          landmarkType = "5">
       </FileBreakpoint>

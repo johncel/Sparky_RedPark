@@ -124,8 +124,8 @@ t1209328992
 s202
 
 N/Developer/git/Sparky_RedPark/SparkyController/English.lproj/MainMenu.nib
-c000000004F03F7CE0000000000000088
-t1325660110
+c000000004F0484660000000000000088
+t1325696102
 s136
 
 N/Developer/git/Sparky_RedPark/SparkyController/KeyReaderView.h
@@ -164,7 +164,7 @@ t1325659593
 s12470
 
 N/Developer/git/Sparky_RedPark/SparkyController/build/Debug/SparkyController.app
-t1325659974
+t1325660115
 s102
 
 N/Developer/git/Sparky_RedPark/SparkyController/build/Debug/SparkyController.app/Contents/Info.plist
@@ -184,8 +184,8 @@ t1325659256
 s202
 
 N/Developer/git/Sparky_RedPark/SparkyController/build/Debug/SparkyController.app/Contents/Resources/English.lproj/MainMenu.nib
-t1325659257
-s31021
+t1325660115
+s31010
 
 N/Developer/git/Sparky_RedPark/SparkyController/build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/KeyReaderView.o
 t1325659972
@@ -251,7 +251,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc5e2f34f2fb4b441^315ffa4f2fb4b441^---0#1#0#--18"Check dependencies36"F921FE14-FF21-46F5-AAAA-84BC8B2235D0-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies56bc99e8bbb4b441^bfef07e9bbb4b441^---0#1#0#--18"Check dependencies36"1147785F-529E-41B4-94F2-FBCA7FE62B7D-
 
 CCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/KeyReaderView.o /Developer/git/Sparky_RedPark/SparkyController/KeyReaderView.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 s347352770.204056
@@ -539,18 +539,18 @@ xInfo.plist
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist1f0e42f82bb4b441^cade42f82bb4b441^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Developer/git/Sparky_RedPark/SparkyController/Info.plist0000000000000000^429"ProcessInfoPlistFile build/Debug/SparkyController.app/Contents/Info.plist Info.plist    cd /Developer/git/Sparky_RedPark/SparkyController    builtin-infoPlistUtility Info.plist -genpkginfo /Developer/git/Sparky_RedPark/SparkyController/build/Debug/SparkyController.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Developer/git/Sparky_RedPark/SparkyController/build/Debug/SparkyController.app/Contents/Info.plist36"F7F4FC03-DF40-4A8B-8919-3D14AC66F402-
 
 CStripNIB /Developer/git/Sparky_RedPark/SparkyController/English.lproj/MainMenu.nib
-s347352911.966163
-e347352915.659011
+s347388905.008990
+e347388905.626113
 r1
 xStripNIB
 x/Developer/git/Sparky_RedPark/SparkyController/English.lproj/MainMenu.nib
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Processing /Developer/git/Sparky_RedPark/SparkyController/English.lproj/MainMenu.nibda71f74f2fb4b441^64afab532fb4b441^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Developer/git/Sparky_RedPark/SparkyController/English.lproj/MainMenu.nib/0000000000000000^422"StripNIB English.lproj/MainMenu.nib    cd /Developer/git/Sparky_RedPark/SparkyController    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --strip /Developer/git/Sparky_RedPark/SparkyController/build/Debug/SparkyController.app/Contents/Resources/English.lproj/MainMenu.nib --output-format human-readable-text /Developer/git/Sparky_RedPark/SparkyController/English.lproj/MainMenu.nib36"38DADB9B-4FA0-499C-95FF-1E42B14D01C5-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Processing /Developer/git/Sparky_RedPark/SparkyController/English.lproj/MainMenu.nib525f02e9bbb4b441^414aa0e9bbb4b441^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Developer/git/Sparky_RedPark/SparkyController/English.lproj/MainMenu.nib/0000000000000000^422"StripNIB English.lproj/MainMenu.nib    cd /Developer/git/Sparky_RedPark/SparkyController    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --strip /Developer/git/Sparky_RedPark/SparkyController/build/Debug/SparkyController.app/Contents/Resources/English.lproj/MainMenu.nib --output-format human-readable-text /Developer/git/Sparky_RedPark/SparkyController/English.lproj/MainMenu.nib36"6231776E-FF49-479D-AA28-600CB64F61EB-
 
 CTouch /Developer/git/Sparky_RedPark/SparkyController/build/Debug/SparkyController.app
-s347352915.702356
-e347352915.765120
+s347388905.654680
+e347388905.698227
 r1
 xTouch
 x/Developer/git/Sparky_RedPark/SparkyController/build/Debug/SparkyController.app
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Touch /Developer/git/Sparky_RedPark/SparkyController/build/Debug/SparkyController.appaddcb3532fb4b441^e3dfc3532fb4b441^---0#0#0#--195"Touch build/Debug/SparkyController.app    cd /Developer/git/Sparky_RedPark/SparkyController    /usr/bin/touch -c /Developer/git/Sparky_RedPark/SparkyController/build/Debug/SparkyController.app36"D23A08C6-C3E8-4685-BC28-BD2D5C0D939E-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Touch /Developer/git/Sparky_RedPark/SparkyController/build/Debug/SparkyController.app2fa8a7e9bbb4b441^fbcbb2e9bbb4b441^---0#0#0#--195"Touch build/Debug/SparkyController.app    cd /Developer/git/Sparky_RedPark/SparkyController    /usr/bin/touch -c /Developer/git/Sparky_RedPark/SparkyController/build/Debug/SparkyController.app36"6D6506E1-A7BF-48E4-B21A-0A68AB3B4A3E-
 
