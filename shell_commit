@@ -1,0 +1,6 @@
+#!/bin/bash
+
+git commit -a -m 'jjc'
+#git remote add origin git@github.com:johncel/Sparky_RedPark.git
+git push -u origin master
+
