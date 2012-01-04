@@ -1,19 +1,24 @@
 TSparkyController
-v3
+v4
 r0
 t329592196.500916
 cCheck dependencies
-cProcessInfoPlistFile /Developer/sparky_redpark/SparkyController/build/Debug/SparkyController.app/Contents/Info.plist Info.plist
-cStripNIB /Developer/sparky_redpark/SparkyController/English.lproj/MainMenu.nib
-cCopyStringsFile /Developer/sparky_redpark/SparkyController/build/Debug/SparkyController.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-cCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/sparky_utils.o /Developer/sparky_redpark/SparkyController/../sparky_utils.c normal i386 c com.apple.compilers.llvmgcc42
-cCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/SparkyController.o /Developer/btstack/example/SparkyController/SparkyController.mm normal i386 objective-c++ com.apple.compilers.llvmgcc42
-cCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/KeyReaderView.o /Developer/btstack/example/SparkyController/KeyReaderView.mm normal i386 objective-c++ com.apple.compilers.llvmgcc42
-cCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/STJoystick_darwin.o /Developer/btstack/example/SparkyController/STJoystick_darwin.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-cCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/main.o /Developer/btstack/example/SparkyController/main.mm normal i386 objective-c++ com.apple.compilers.llvmgcc42
-cCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/STJoystick.o /Developer/btstack/example/SparkyController/STJoystick.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-cLd /Developer/sparky_redpark/SparkyController/build/Debug/SparkyController.app/Contents/MacOS/SparkyController normal i386
-cTouch /Developer/sparky_redpark/SparkyController/build/Debug/SparkyController.app
+cProcessInfoPlistFile /Developer/git/Sparky_RedPark/SparkyController/build/Debug/SparkyController.app/Contents/Info.plist Info.plist
+cStripNIB /Developer/git/Sparky_RedPark/SparkyController/English.lproj/MainMenu.nib
+cCopyStringsFile /Developer/git/Sparky_RedPark/SparkyController/build/Debug/SparkyController.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/sparky_utils.o /Developer/git/Sparky_RedPark/SparkyController/../sparky_utils.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/KeyReaderView.o /Developer/git/Sparky_RedPark/SparkyController/KeyReaderView.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/main.o /Developer/git/Sparky_RedPark/SparkyController/main.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/SparkyController.o /Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/STJoystick_darwin.o /Developer/git/Sparky_RedPark/SparkyController/STJoystick_darwin.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/STJoystick.o /Developer/git/Sparky_RedPark/SparkyController/STJoystick.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Developer/git/Sparky_RedPark/SparkyController/build/Debug/SparkyController.app/Contents/MacOS/SparkyController normal i386
+cTouch /Developer/git/Sparky_RedPark/SparkyController/build/Debug/SparkyController.app
+
+N/Developer/KeyReaderView.mm
+c00000000000000000000000000000000
+t2
+s0
 
 N/Developer/SDKs/MacOSX10.5.sdk
 c000000004C238B9B00000000000000EE
@@ -296,8 +301,8 @@ t1270689001
 s22078
 
 N/Developer/SDKs/MacOSX10.7.sdk
-c000000004E70333100000000000000EE
-t1315975985
+c000000004EDB111500000000000000EE
+t1322979605
 s238
 
 N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
@@ -336,9 +341,9 @@ t1308261332
 s1545
 
 N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/IOKit.framework/IOKit
-c000000004E1106CE0000000000039E80
-t1309738702
-s237184
+c000000004E7AD7030000000000039ED8
+t1316673283
+s237272
 
 N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/hidsystem/IOHIDUsageTables.h
 c000000004E0ABA7100000000000182B5
@@ -346,8 +351,8 @@ t1309325937
 s98997
 
 N/Developer/SDKs/MacOSX10.7.sdk/usr/include/arpa/inet.h
-c000000004E0541A50000000000001533
-t1308967333
+c000000004E2620D40000000000001533
+t1311121620
 s5427
 
 N/Developer/SDKs/MacOSX10.7.sdk/usr/include/ctype.h
@@ -356,13 +361,13 @@ t1308969339
 s11288
 
 N/Developer/SDKs/MacOSX10.7.sdk/usr/include/errno.h
-c000000004E05497A00000000000003EB
-t1308969338
+c000000004E360D4B00000000000003EB
+t1312165195
 s1003
 
 N/Developer/SDKs/MacOSX10.7.sdk/usr/include/fcntl.h
-c000000004E05497A00000000000003EA
-t1308969338
+c000000004E360D4B00000000000003EA
+t1312165195
 s1002
 
 N/Developer/SDKs/MacOSX10.7.sdk/usr/include/mach/mach.h
@@ -376,53 +381,53 @@ t1308426378
 s3043
 
 N/Developer/SDKs/MacOSX10.7.sdk/usr/include/math.h
-c000000004DF6418700000000000004F1
-t1307984263
+c000000004DDD287300000000000004F1
+t1306339443
 s1265
 
 N/Developer/SDKs/MacOSX10.7.sdk/usr/include/netdb.h
-c000000004E0541A5000000000000307F
-t1308967333
+c000000004E2620D3000000000000307F
+t1311121619
 s12415
 
 N/Developer/SDKs/MacOSX10.7.sdk/usr/include/netinet/in.h
-c000000004DFD01A20000000000006BC5
-t1308426658
+c000000004E41FFC20000000000006BC5
+t1312948162
 s27589
 
 N/Developer/SDKs/MacOSX10.7.sdk/usr/include/signal.h
-c000000004E05497C00000000000014F0
-t1308969340
+c000000004E360D4D00000000000014F0
+t1312165197
 s5360
 
 N/Developer/SDKs/MacOSX10.7.sdk/usr/include/stdio.h
-c000000004E05497C0000000000004763
-t1308969340
+c000000004E360D4E0000000000004763
+t1312165198
 s18275
 
 N/Developer/SDKs/MacOSX10.7.sdk/usr/include/stdlib.h
-c000000004E05497C00000000000030A7
-t1308969340
+c000000004E360D4E00000000000030A7
+t1312165198
 s12455
 
 N/Developer/SDKs/MacOSX10.7.sdk/usr/include/string.h
-c000000004E05497C0000000000001A3A
-t1308969340
+c000000004E360D4E0000000000001A3A
+t1312165198
 s6714
 
 N/Developer/SDKs/MacOSX10.7.sdk/usr/include/sys/ioctl.h
-c000000004DFD01C9000000000000116C
-t1308426697
+c000000004E41FFD9000000000000116C
+t1312948185
 s4460
 
 N/Developer/SDKs/MacOSX10.7.sdk/usr/include/sys/socket.h
-c000000004DFD01DA0000000000005ACB
-t1308426714
+c000000004E41FFEB0000000000005ACB
+t1312948203
 s23243
 
 N/Developer/SDKs/MacOSX10.7.sdk/usr/include/sys/types.h
-c000000004DFD01DF0000000000002905
-t1308426719
+c000000004E41FFF00000000000002905
+t1312948208
 s10501
 
 N/Developer/SDKs/MacOSX10.7.sdk/usr/include/sysexits.h
@@ -431,9 +436,24 @@ t1308969338
 s5472
 
 N/Developer/SDKs/MacOSX10.7.sdk/usr/include/unistd.h
-c000000004E05497C0000000000006662
-t1308969340
+c000000004E360D4E0000000000006662
+t1312165198
 s26210
+
+N/Developer/STJoystick.cpp
+c00000000000000000000000000000000
+t2
+s0
+
+N/Developer/STJoystick_darwin.cpp
+c00000000000000000000000000000000
+t2
+s0
+
+N/Developer/SparkyController.mm
+c00000000000000000000000000000000
+t2
+s0
 
 N/Developer/btstack/example/SparkyController/../sparky_utils.c
 c000000004DE5B2AC0000000000000DE1
@@ -791,6 +811,134 @@ c000000004CDB7A2A0000000000000134
 t1289452074
 s308
 
+N/Developer/git/Sparky_RedPark/SparkyController/../sparky_utils.c
+c000000004EE2E57D0000000000000DE1
+t1323492733
+s3553
+i<stdlib.h>
+i<stdio.h>
+i<string.h>
+i<math.h>
+i<sys/types.h>
+i<sys/socket.h>
+i<sys/ioctl.h>
+i<netinet/in.h>
+i<arpa/inet.h>
+i<netdb.h>
+i<unistd.h>
+i<signal.h>
+i<fcntl.h>
+i<errno.h>
+
+N/Developer/git/Sparky_RedPark/SparkyController/English.lproj/InfoPlist.strings
+c000000004814E56000000000000000CA
+t1209328992
+s202
+
+N/Developer/git/Sparky_RedPark/SparkyController/English.lproj/MainMenu.nib
+c000000004E34EC510000000000000088
+t1312091217
+s136
+
+N/Developer/git/Sparky_RedPark/SparkyController/KeyReaderView.mm
+c000000004DC8B25F0000000000000B18
+t1304998495
+s2840
+
+N/Developer/git/Sparky_RedPark/SparkyController/STJoystick.cpp
+c000000004DC8B92B0000000000002A44
+t1305000235
+s10820
+
+N/Developer/git/Sparky_RedPark/SparkyController/STJoystick_darwin.cpp
+c000000004DC8B625000000000000722F
+t1304999461
+s29231
+
+N/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm
+c000000004F03ECE800000000000030B4
+t1325657320
+s12468
+
+N/Developer/git/Sparky_RedPark/SparkyController/build/Debug/SparkyController.app
+t1317691544
+s102
+
+N/Developer/git/Sparky_RedPark/SparkyController/build/Debug/SparkyController.app/Contents/Info.plist
+t1307072048
+s796
+
+N/Developer/git/Sparky_RedPark/SparkyController/build/Debug/SparkyController.app/Contents/MacOS/SparkyController
+t1317691544
+s60432
+
+N/Developer/git/Sparky_RedPark/SparkyController/build/Debug/SparkyController.app/Contents/PkgInfo
+t1307072048
+s8
+
+N/Developer/git/Sparky_RedPark/SparkyController/build/Debug/SparkyController.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1307072049
+s202
+
+N/Developer/git/Sparky_RedPark/SparkyController/build/Debug/SparkyController.app/Contents/Resources/English.lproj/MainMenu.nib
+t1312149499
+s33499
+
+N/Developer/git/Sparky_RedPark/SparkyController/build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/KeyReaderView.o
+t1317691538
+s20256
+
+N/Developer/git/Sparky_RedPark/SparkyController/build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/STJoystick-28007A337430774B.o
+t2
+s0
+
+N/Developer/git/Sparky_RedPark/SparkyController/build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/STJoystick-FF29CF8DAD97E950.o
+t2
+s0
+
+N/Developer/git/Sparky_RedPark/SparkyController/build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/STJoystick.o
+t1317691543
+s21232
+
+N/Developer/git/Sparky_RedPark/SparkyController/build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/STJoystick_darwin.o
+t1317691542
+s34664
+
+N/Developer/git/Sparky_RedPark/SparkyController/build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/SparkyController.LinkFileList
+c000000004F03F21D0000000000000348
+t1325658653
+s840
+
+N/Developer/git/Sparky_RedPark/SparkyController/build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/SparkyController.o
+t2
+s0
+
+N/Developer/git/Sparky_RedPark/SparkyController/build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/main-666ECBEBF84EE32.o
+t2
+s0
+
+N/Developer/git/Sparky_RedPark/SparkyController/build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/main-AFE932F83A61729.o
+t2
+s0
+
+N/Developer/git/Sparky_RedPark/SparkyController/build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/main.o
+t1307072060
+s5312
+
+N/Developer/git/Sparky_RedPark/SparkyController/build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/sparky_utils.o
+t1325658655
+s8292
+
+N/Developer/git/Sparky_RedPark/SparkyController/main.mm
+c000000004DC8B88A0000000000000106
+t1305000074
+s262
+
+N/Developer/main.mm
+c00000000000000000000000000000000
+t2
+s0
+
 N/Developer/sparky_redpark/SparkyController/../sparky_utils.c
 c000000004E2B43A80000000000000DE1
 t1311458216
@@ -883,6 +1031,18 @@ c000000004814E5620000000000000356
 t1209328994
 s854
 
+CBuild AST from /Developer/KeyReaderView.mm
+r0
+
+CBuild AST from /Developer/STJoystick.cpp
+r0
+
+CBuild AST from /Developer/STJoystick_darwin.cpp
+r0
+
+CBuild AST from /Developer/SparkyController.mm
+r0
+
 CBuild AST from /Developer/btstack/example/SparkyController/KeyReaderView.mm
 r0
 
@@ -898,12 +1058,36 @@ r0
 CBuild AST from /Developer/btstack/example/SparkyController/main.mm
 r0
 
+CBuild AST from /Developer/git/Sparky_RedPark/SparkyController/../sparky_utils.c
+r0
+
+CBuild AST from /Developer/git/Sparky_RedPark/SparkyController/KeyReaderView.mm
+r0
+
+CBuild AST from /Developer/git/Sparky_RedPark/SparkyController/STJoystick.cpp
+r0
+
+CBuild AST from /Developer/git/Sparky_RedPark/SparkyController/STJoystick_darwin.cpp
+r0
+
+CBuild AST from /Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm
+r0
+
+CBuild AST from /Developer/git/Sparky_RedPark/SparkyController/main.mm
+r0
+
+CBuild AST from /Developer/main.mm
+r0
+
 CBuild AST from /Developer/sparky_redpark/SparkyController/../sparky_utils.c
 r0
 
 CCheck dependencies
 r0
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies689650e3973ab441^16dcf7ec973ab441^---0#1#0#--18"Check dependencies
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies69a98c0e2ab4b441^18e9f90e2ab4b441^---0#1#0#--18"Check dependencies36"C3CA48E8-4396-4589-B486-B72135A3FDFE-
+
+CCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/KeyReaderView.o /Developer/KeyReaderView.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
 
 CCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/KeyReaderView.o /Developer/btstack/example/SparkyController/KeyReaderView.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s326691268.478150
@@ -1032,6 +1216,15 @@ o/Developer/fliners/johnandbrendan.com/sparky/SparkyController/KeyReaderView.m:1
 o/Developer/fliners/johnandbrendan.com/sparky/SparkyController/KeyReaderView.m:133: warning: format '%x' expects type 'unsigned int', but argument 3 has type 'struct SparkyController *'
 lSLF07#2@85"Compile /Developer/fliners/johnandbrendan.com/sparky/SparkyController/KeyReaderView.m310625006#310625007#0(2425"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/KeyReaderView.m: In function '-[KeyReaderView keyDown:]':/Developer/fliners/johnandbrendan.com/sparky/SparkyController/KeyReaderView.m:49: warning: 'cString' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:345)/Developer/fliners/johnandbrendan.com/sparky/SparkyController/KeyReaderView.m:58: warning: 'cString' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:345)/Developer/fliners/johnandbrendan.com/sparky/SparkyController/KeyReaderView.m:58: warning: format '%x' expects type 'unsigned int', but argument 4 has type 'struct SparkyController *'/Developer/fliners/johnandbrendan.com/sparky/SparkyController/KeyReaderView.m:68: warning: format '%x' expects type 'unsigned int', but argument 3 has type 'struct SparkyController *'/Developer/fliners/johnandbrendan.com/sparky/SparkyController/KeyReaderView.m:76: warning: format '%x' expects type 'unsigned int', but argument 3 has type 'struct SparkyController *'/Developer/fliners/johnandbrendan.com/sparky/SparkyController/KeyReaderView.m:84: warning: format '%x' expects type 'unsigned int', but argument 3 has type 'struct SparkyController *'/Developer/fliners/johnandbrendan.com/sparky/SparkyController/KeyReaderView.m:92: warning: format '%x' expects type 'unsigned int', but argument 3 has type 'struct SparkyController *'/Developer/fliners/johnandbrendan.com/sparky/SparkyController/KeyReaderView.m:101: warning: format '%x' expects type 'unsigned int', but argument 3 has type 'struct SparkyController *'/Developer/fliners/johnandbrendan.com/sparky/SparkyController/KeyReaderView.m:109: warning: format '%x' expects type 'unsigned int', but argument 3 has type 'struct SparkyController *'/Developer/fliners/johnandbrendan.com/sparky/SparkyController/KeyReaderView.m:117: warning: format '%x' expects type 'unsigned int', but argument 3 has type 'struct SparkyController *'/Developer/fliners/johnandbrendan.com/sparky/SparkyController/KeyReaderView.m:125: warning: format '%x' expects type 'unsigned int', but argument 3 has type 'struct SparkyController *'/Developer/fliners/johnandbrendan.com/sparky/SparkyController/KeyReaderView.m:133: warning: format '%x' expects type 'unsigned int', but argument 3 has type 'struct SparkyController *'12(22@138"'cString' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:345)310625007#120#230#0(6@77"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/KeyReaderView.m231021794#49#0#49#0#33"'*' is deprecated (declared at *)0(22@138"'cString' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:345)310625007#350#230#0(6@77"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/KeyReaderView.m231021794#58#0#58#0#33"'*' is deprecated (declared at *)0(22@92"Format '%x' expects type 'unsigned int', but argument 4 has type 'struct SparkyController *'310625007#580#184#0(6@77"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/KeyReaderView.m231021794#58#0#58#0#56"format '*' expects type '*', but argument * has type '*'0(22@92"Format '%x' expects type 'unsigned int', but argument 3 has type 'struct SparkyController *'310625007#764#184#0(6@77"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/KeyReaderView.m231021794#68#0#68#0#56"format '*' expects type '*', but argument * has type '*'0(22@92"Format '%x' expects type 'unsigned int', but argument 3 has type 'struct SparkyController *'310625007#948#184#0(6@77"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/KeyReaderView.m231021794#76#0#76#0#56"format '*' expects type '*', but argument * has type '*'0(22@92"Format '%x' expects type 'unsigned int', but argument 3 has type 'struct SparkyController *'310625007#1132#184#0(6@77"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/KeyReaderView.m231021794#84#0#84#0#56"format '*' expects type '*', but argument * has type '*'0(22@92"Format '%x' expects type 'unsigned int', but argument 3 has type 'struct SparkyController *'310625007#1316#184#0(6@77"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/KeyReaderView.m231021794#92#0#92#0#56"format '*' expects type '*', but argument * has type '*'0(22@92"Format '%x' expects type 'unsigned int', but argument 3 has type 'struct SparkyController *'310625007#1500#185#0(6@77"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/KeyReaderView.m231021794#101#0#101#0#56"format '*' expects type '*', but argument * has type '*'0(22@92"Format '%x' expects type 'unsigned int', but argument 3 has type 'struct SparkyController *'310625007#1685#185#0(6@77"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/KeyReaderView.m231021794#109#0#109#0#56"format '*' expects type '*', but argument * has type '*'0(22@92"Format '%x' expects type 'unsigned int', but argument 3 has type 'struct SparkyController *'310625007#1870#185#0(6@77"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/KeyReaderView.m231021794#117#0#117#0#56"format '*' expects type '*', but argument * has type '*'0(22@92"Format '%x' expects type 'unsigned int', but argument 3 has type 'struct SparkyController *'310625007#2055#185#0(6@77"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/KeyReaderView.m231021794#125#0#125#0#56"format '*' expects type '*', but argument * has type '*'0(22@92"Format '%x' expects type 'unsigned int', but argument 3 has type 'struct SparkyController *'310625007#2240#185#0(6@77"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/KeyReaderView.m231021794#133#0#133#0#56"format '*' expects type '*', but argument * has type '*'0(0#0#77"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/KeyReaderView.m8603982592#1182"    cd /Developer/fliners/johnandbrendan.com/sparky/SparkyController    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/SparkyController.build/Debug/SparkyController.build/SparkyController.hmap -F/Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/Debug -I/Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/Debug/include -I/Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/SparkyController.build/Debug/SparkyController.build/DerivedSources/i386 -I/Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/SparkyController.build/Debug/SparkyController.build/DerivedSources -c /Developer/fliners/johnandbrendan.com/sparky/SparkyController/KeyReaderView.m -o /Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/KeyReaderView.o0#
 
+CCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/KeyReaderView.o /Developer/git/Sparky_RedPark/SparkyController/KeyReaderView.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/STJoystick-28007A337430774B.o /Developer/git/Sparky_RedPark/SparkyController/STJoystick.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/STJoystick-FF29CF8DAD97E950.o /Developer/STJoystick.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
 CCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/STJoystick.o /Developer/btstack/example/SparkyController/STJoystick.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s328764860.278652
 e328764860.468067
@@ -1087,6 +1280,12 @@ o/Developer/btstack/example/SparkyController/STJoystick.cpp: In static member fu
 o/Developer/btstack/example/SparkyController/STJoystick.cpp:295: warning: deprecated conversion from string constant to 'char*'
 o/Developer/btstack/example/SparkyController/STJoystick.cpp:300: warning: deprecated conversion from string constant to 'char*'
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Developer/btstack/example/SparkyController/STJoystick.cpp6b461217983ab441^a0c14217983ab441^-1894"/Developer/btstack/example/SparkyController/STJoystick.cpp: In static member function 'static const char* STJoystick::GetName(int)':/Developer/btstack/example/SparkyController/STJoystick.cpp:85: warning: deprecated conversion from string constant to 'char*'/Developer/btstack/example/SparkyController/STJoystick.cpp: In static member function 'static STJoystick* STJoystick::OpenJoystick(int)':/Developer/btstack/example/SparkyController/STJoystick.cpp:104: warning: deprecated conversion from string constant to 'char*'/Developer/btstack/example/SparkyController/STJoystick.cpp: In member function 'short int STJoystick::GetAxis(int)':/Developer/btstack/example/SparkyController/STJoystick.cpp:233: warning: deprecated conversion from string constant to 'char*'/Developer/btstack/example/SparkyController/STJoystick.cpp: In member function 'unsigned char STJoystick::GetHat(int)':/Developer/btstack/example/SparkyController/STJoystick.cpp:247: warning: deprecated conversion from string constant to 'char*'/Developer/btstack/example/SparkyController/STJoystick.cpp: In member function 'void STJoystick::GetBall(int, int*, int*)':/Developer/btstack/example/SparkyController/STJoystick.cpp:271: warning: deprecated conversion from string constant to 'char*'/Developer/btstack/example/SparkyController/STJoystick.cpp: In member function 'unsigned char STJoystick::GetButton(int)':/Developer/btstack/example/SparkyController/STJoystick.cpp:284: warning: deprecated conversion from string constant to 'char*'/Developer/btstack/example/SparkyController/STJoystick.cpp: In static member function 'static void STJoystick::Close(int)':/Developer/btstack/example/SparkyController/STJoystick.cpp:295: warning: deprecated conversion from string constant to 'char*'/Developer/btstack/example/SparkyController/STJoystick.cpp:300: warning: deprecated conversion from string constant to 'char*'8(21%IDEActivityLogMessage2@53"Deprecated conversion from string constant to 'char*'-339384343#133#126#-1#-23%DVTTextDocumentLocation3@74"file://localhost/Developer/btstack/example/SparkyController/STJoystick.cpp0000000000000000^84#18446744073709551615#84#18446744073709551615#18446744073709551615#0#49"Deprecated conversion from string constant to '*'--2@53"Deprecated conversion from string constant to 'char*'-339384343#397#127#-1#-3@74"file://localhost/Developer/btstack/example/SparkyController/STJoystick.cpp0000000000000000^103#18446744073709551615#103#18446744073709551615#18446744073709551615#0#49"Deprecated conversion from string constant to '*'--2@53"Deprecated conversion from string constant to 'char*'-339384343#641#127#-1#-3@74"file://localhost/Developer/btstack/example/SparkyController/STJoystick.cpp0000000000000000^232#18446744073709551615#232#18446744073709551615#18446744073709551615#0#49"Deprecated conversion from string constant to '*'--2@53"Deprecated conversion from string constant to 'char*'-339384343#888#127#-1#-3@74"file://localhost/Developer/btstack/example/SparkyController/STJoystick.cpp0000000000000000^246#18446744073709551615#246#18446744073709551615#18446744073709551615#0#49"Deprecated conversion from string constant to '*'--2@53"Deprecated conversion from string constant to 'char*'-339384343#1139#127#-1#-3@74"file://localhost/Developer/btstack/example/SparkyController/STJoystick.cpp0000000000000000^270#18446744073709551615#270#18446744073709551615#18446744073709551615#0#49"Deprecated conversion from string constant to '*'--2@53"Deprecated conversion from string constant to 'char*'-339384343#1389#127#-1#-3@74"file://localhost/Developer/btstack/example/SparkyController/STJoystick.cpp0000000000000000^283#18446744073709551615#283#18446744073709551615#18446744073709551615#0#49"Deprecated conversion from string constant to '*'--2@53"Deprecated conversion from string constant to 'char*'-339384343#1640#127#-1#-3@74"file://localhost/Developer/btstack/example/SparkyController/STJoystick.cpp0000000000000000^294#18446744073709551615#294#18446744073709551615#18446744073709551615#0#49"Deprecated conversion from string constant to '*'--2@53"Deprecated conversion from string constant to 'char*'-339384343#1767#127#-1#-3@74"file://localhost/Developer/btstack/example/SparkyController/STJoystick.cpp0000000000000000^299#18446744073709551615#299#18446744073709551615#18446744073709551615#0#49"Deprecated conversion from string constant to '*'--0#0#0#-19%DVTDocumentLocation4@74"file://localhost/Developer/btstack/example/SparkyController/STJoystick.cpp0000000000000000^1258"CompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/STJoystick.o /Developer/btstack/example/SparkyController/STJoystick.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Developer/sparky_redpark/SparkyController    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.4 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -I/Developer/sparky_redpark/SparkyController/build/SparkyController.build/Debug/SparkyController.build/SparkyController.hmap -I/Developer/sparky_redpark/SparkyController/build/Debug/include -I/Developer/sparky_redpark/SparkyController/build/SparkyController.build/Debug/SparkyController.build/DerivedSources/i386 -I/Developer/sparky_redpark/SparkyController/build/SparkyController.build/Debug/SparkyController.build/DerivedSources -F/Developer/sparky_redpark/SparkyController/build/Debug -c /Developer/btstack/example/SparkyController/STJoystick.cpp -o /Developer/sparky_redpark/SparkyController/build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/STJoystick.o
+
+CCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/STJoystick.o /Developer/git/Sparky_RedPark/SparkyController/STJoystick.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/STJoystick_darwin.o /Developer/STJoystick_darwin.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
 
 CCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/STJoystick_darwin.o /Developer/btstack/example/SparkyController/STJoystick_darwin.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s328764859.178948
@@ -1161,6 +1360,12 @@ o/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp:594: warning:
 o/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp:617: warning: deprecated conversion from string constant to 'char*'
 o/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp:626: warning: deprecated conversion from string constant to 'char*'
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Developer/btstack/example/SparkyController/STJoystick_darwin.cppc0ceed12983ab441^7cb50f17983ab441^-3223"/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp: In function 'IOReturn HIDCreateOpenDeviceInterface(io_object_t, recDevice*)':/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp:190: warning: deprecated conversion from string constant to 'char*'/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp:194: warning: deprecated conversion from string constant to 'char*'/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp:200: warning: deprecated conversion from string constant to 'char*'/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp: In function 'IOReturn HIDCloseReleaseInterface(recDevice*)':/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp:226: warning: deprecated conversion from string constant to 'char*'/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp:230: warning: deprecated conversion from string constant to 'char*'/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp: In function 'void HIDTopLevelElementHandler(const void*, void*)':/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp:414: warning: deprecated conversion from string constant to 'char*'/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp:417: warning: deprecated conversion from string constant to 'char*'/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp: In function 'void HIDGetDeviceInfo(io_object_t, __CFDictionary*, recDevice*)':/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp:448: warning: deprecated conversion from string constant to 'char*'/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp:456: warning: deprecated conversion from string constant to 'char*'/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp:460: warning: deprecated conversion from string constant to 'char*'/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp:478: warning: deprecated conversion from string constant to 'char*'/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp:481: warning: deprecated conversion from string constant to 'char*'/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp:483: warning: deprecated conversion from string constant to 'char*'/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp: In function 'recDevice* HIDDisposeDevice(recDevice**)':/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp:552: warning: deprecated conversion from string constant to 'char*'/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp: In static member function 'static int STJoystick::Sys_Initialize()':/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp:587: warning: deprecated conversion from string constant to 'char*'/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp:594: warning: deprecated conversion from string constant to 'char*'/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp:617: warning: deprecated conversion from string constant to 'char*'/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp:626: warning: deprecated conversion from string constant to 'char*'18(21%IDEActivityLogMessage2@53"Deprecated conversion from string constant to 'char*'-339384342#145#134#-1#-23%DVTTextDocumentLocation3@81"file://localhost/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp0000000000000000^189#18446744073709551615#189#18446744073709551615#18446744073709551615#0#49"Deprecated conversion from string constant to '*'--2@53"Deprecated conversion from string constant to 'char*'-339384342#279#134#-1#-3@81"file://localhost/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp0000000000000000^193#18446744073709551615#193#18446744073709551615#18446744073709551615#0#49"Deprecated conversion from string constant to '*'--2@53"Deprecated conversion from string constant to 'char*'-339384342#413#134#-1#-3@81"file://localhost/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp0000000000000000^199#18446744073709551615#199#18446744073709551615#18446744073709551615#0#49"Deprecated conversion from string constant to '*'--2@53"Deprecated conversion from string constant to 'char*'-339384342#675#134#-1#-3@81"file://localhost/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp0000000000000000^225#18446744073709551615#225#18446744073709551615#18446744073709551615#0#49"Deprecated conversion from string constant to '*'--2@53"Deprecated conversion from string constant to 'char*'-339384342#809#134#-1#-3@81"file://localhost/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp0000000000000000^229#18446744073709551615#229#18446744073709551615#18446744073709551615#0#49"Deprecated conversion from string constant to '*'--2@53"Deprecated conversion from string constant to 'char*'-339384342#1076#134#-1#-3@81"file://localhost/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp0000000000000000^413#18446744073709551615#413#18446744073709551615#18446744073709551615#0#49"Deprecated conversion from string constant to '*'--2@53"Deprecated conversion from string constant to 'char*'-339384342#1210#134#-1#-3@81"file://localhost/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp0000000000000000^416#18446744073709551615#416#18446744073709551615#18446744073709551615#0#49"Deprecated conversion from string constant to '*'--2@53"Deprecated conversion from string constant to 'char*'-339384342#1490#134#-1#-3@81"file://localhost/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp0000000000000000^447#18446744073709551615#447#18446744073709551615#18446744073709551615#0#49"Deprecated conversion from string constant to '*'--2@53"Deprecated conversion from string constant to 'char*'-339384342#1624#134#-1#-3@81"file://localhost/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp0000000000000000^455#18446744073709551615#455#18446744073709551615#18446744073709551615#0#49"Deprecated conversion from string constant to '*'--2@53"Deprecated conversion from string constant to 'char*'-339384342#1758#134#-1#-3@81"file://localhost/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp0000000000000000^459#18446744073709551615#459#18446744073709551615#18446744073709551615#0#49"Deprecated conversion from string constant to '*'--2@53"Deprecated conversion from string constant to 'char*'-339384342#1892#134#-1#-3@81"file://localhost/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp0000000000000000^477#18446744073709551615#477#18446744073709551615#18446744073709551615#0#49"Deprecated conversion from string constant to '*'--2@53"Deprecated conversion from string constant to 'char*'-339384342#2026#134#-1#-3@81"file://localhost/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp0000000000000000^480#18446744073709551615#480#18446744073709551615#18446744073709551615#0#49"Deprecated conversion from string constant to '*'--2@53"Deprecated conversion from string constant to 'char*'-339384342#2160#134#-1#-3@81"file://localhost/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp0000000000000000^482#18446744073709551615#482#18446744073709551615#18446744073709551615#0#49"Deprecated conversion from string constant to '*'--2@53"Deprecated conversion from string constant to 'char*'-339384342#2417#134#-1#-3@81"file://localhost/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp0000000000000000^551#18446744073709551615#551#18446744073709551615#18446744073709551615#0#49"Deprecated conversion from string constant to '*'--2@53"Deprecated conversion from string constant to 'char*'-339384342#2687#134#-1#-3@81"file://localhost/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp0000000000000000^586#18446744073709551615#586#18446744073709551615#18446744073709551615#0#49"Deprecated conversion from string constant to '*'--2@53"Deprecated conversion from string constant to 'char*'-339384342#2821#134#-1#-3@81"file://localhost/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp0000000000000000^593#18446744073709551615#593#18446744073709551615#18446744073709551615#0#49"Deprecated conversion from string constant to '*'--2@53"Deprecated conversion from string constant to 'char*'-339384342#2955#134#-1#-3@81"file://localhost/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp0000000000000000^616#18446744073709551615#616#18446744073709551615#18446744073709551615#0#49"Deprecated conversion from string constant to '*'--2@53"Deprecated conversion from string constant to 'char*'-339384342#3089#134#-1#-3@81"file://localhost/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp0000000000000000^625#18446744073709551615#625#18446744073709551615#18446744073709551615#0#49"Deprecated conversion from string constant to '*'--0#0#0#-19%DVTDocumentLocation4@81"file://localhost/Developer/btstack/example/SparkyController/STJoystick_darwin.cpp0000000000000000^1286"CompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/STJoystick_darwin.o /Developer/btstack/example/SparkyController/STJoystick_darwin.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Developer/sparky_redpark/SparkyController    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.4 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -I/Developer/sparky_redpark/SparkyController/build/SparkyController.build/Debug/SparkyController.build/SparkyController.hmap -I/Developer/sparky_redpark/SparkyController/build/Debug/include -I/Developer/sparky_redpark/SparkyController/build/SparkyController.build/Debug/SparkyController.build/DerivedSources/i386 -I/Developer/sparky_redpark/SparkyController/build/SparkyController.build/Debug/SparkyController.build/DerivedSources -F/Developer/sparky_redpark/SparkyController/build/Debug -c /Developer/btstack/example/SparkyController/STJoystick_darwin.cpp -o /Developer/sparky_redpark/SparkyController/build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/STJoystick_darwin.o
+
+CCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/STJoystick_darwin.o /Developer/git/Sparky_RedPark/SparkyController/STJoystick_darwin.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/SparkyController.o /Developer/SparkyController.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
 
 CCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/SparkyController.o /Developer/btstack/example/SparkyController/SparkyController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s325833887.097780
@@ -1312,6 +1517,69 @@ o/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.
 o/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m:317: warning: control reaches end of non-void function
 lSLF07#2@88"Compile /Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m311144936#311144937#0(2942"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m: In function '-[SparkyController Debug:]':/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m:97: warning: format not a string literal and no format arguments/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m: In function '-[SparkyController MoveLeft:]':/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m:154: warning: format not a string literal and no format arguments/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m: In function '-[SparkyController MoveRight:]':/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m:174: warning: format not a string literal and no format arguments/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m: In function '-[SparkyController MoveStraight:]':/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m:194: warning: format not a string literal and no format arguments/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m: In function '-[SparkyController MoveReverse:]':/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m:214: warning: format not a string literal and no format arguments/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m: In function '-[SparkyController onMoveRight:]':/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m:225: warning: format not a string literal and no format arguments/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m: In function '-[SparkyController sendCommand:]':/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m:276: warning: 'cString' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:345)/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m:276: warning: initialization discards qualifiers from pointer target type/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m: In function '-[SparkyController http_sendMoveCommand:]':/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m:290: warning: multiple methods named '-init' found/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:72: warning: using '-(id)init'/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.h:36: warning: also found '-(void)init'/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m:316: warning: unused variable 'data'/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m:317: warning: control reaches end of non-void function13(22@51"Format not a string literal and no format arguments311144937#124#146#0(6@80"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m311144934#97#0#97#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments311144937#397#147#0(6@80"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m311144934#154#0#154#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments311144937#672#147#0(6@80"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m311144934#174#0#174#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments311144937#950#147#0(6@80"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m311144934#194#0#194#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments311144937#1227#147#0(6@80"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m311144934#214#0#214#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments311144937#1504#147#0(6@80"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m311144934#225#0#225#0#51"format not a string literal and no format arguments0(22@138"'cString' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:345)311144937#1781#234#0(6@80"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m311144934#276#0#276#0#33"'*' is deprecated (declared at *)0(22@59"Initialization discards qualifiers from pointer target type311144937#2015#155#0(6@80"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m311144934#276#0#276#0#0"0(22@36"Multiple methods named '-init' found311144937#2309#132#0(6@80"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m311144934#290#0#290#0#0"0(22@17"Using '-(id)init'311144937#2441#128#0(6@96"/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h236247371#72#0#72#0#0"0(22@24"Also found '-(void)init'311144937#2569#119#0(6@80"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.h231021794#36#0#36#0#0"0(22@22"Unused variable 'data'311144937#2688#118#0(6@80"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m311144934#316#0#316#0#19"unused variable '*'0(22@40"Control reaches end of non-void function311144937#2806#136#0(6@80"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m311144934#317#0#317#0#40"control reaches end of non-void function0(0#0#80"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m8610787680#1188"    cd /Developer/fliners/johnandbrendan.com/sparky/SparkyController    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/SparkyController.build/Debug/SparkyController.build/SparkyController.hmap -F/Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/Debug -I/Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/Debug/include -I/Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/SparkyController.build/Debug/SparkyController.build/DerivedSources/i386 -I/Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/SparkyController.build/Debug/SparkyController.build/DerivedSources -c /Developer/fliners/johnandbrendan.com/sparky/SparkyController/SparkyController.m -o /Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/SparkyController.o0#
 
+CCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/SparkyController.o /Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s347351566.999298
+e347351571.662914
+r1
+xCompileC
+xbuild/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/SparkyController.o
+x/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm:8:
+o/Developer/git/Sparky_RedPark/SparkyController/SparkyController.h:48:1:{48:4-48:8}: warning: method is expected to return an instance of its class type 'SparkyController', but is declared to return 'void' [6]
+o - (void)init;
+o ^  ~~~~
+o/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:72:1: note: overridden method is part of the 'init' method family [6]
+o - (id)init;
+o ^
+o/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm:45:2:{45:2-45:5}: warning: expression result unused [-Wunused-value,12]
+o         bar;
+o         ^~~
+o/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm:116:8:{116:8-116:12}: warning: format string is not a string literal (potentially insecure) [-Wformat-security,9]
+o         NSLog(line);
+o               ^~~~
+o/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm:176:8:{176:8-176:15}: warning: format string is not a string literal (potentially insecure) [-Wformat-security,9]
+o         NSLog(command);
+o               ^~~~~~~
+o/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm:198:8:{198:8-198:15}: warning: format string is not a string literal (potentially insecure) [-Wformat-security,9]
+o         NSLog(command);
+o               ^~~~~~~
+o/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm:218:8:{218:8-218:15}: warning: format string is not a string literal (potentially insecure) [-Wformat-security,9]
+o         NSLog(command);
+o               ^~~~~~~
+o/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm:238:8:{238:8-238:15}: warning: format string is not a string literal (potentially insecure) [-Wformat-security,9]
+o         NSLog(command);
+o               ^~~~~~~
+o/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm:249:8:{249:8-249:15}: warning: format string is not a string literal (potentially insecure) [-Wformat-security,9]
+o         NSLog(command);
+o               ^~~~~~~
+o/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm:261:8:{261:8-261:15}: warning: format string is not a string literal (potentially insecure) [-Wformat-security,9]
+o         NSLog(command);
+o               ^~~~~~~
+o/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm:312:32: warning: 'cString' is deprecated [-Wdeprecated-declarations,8]
+o         char *command_cstr = (char *)[command cString];
+o                                       ^
+o/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm:352:14: warning: unused variable 'data' [-Wunused-variable,12]
+o     NSData * data = [NSURLConnection sendSynchronousRequest:request returningResponse:&resp error:&err];
+o              ^
+o/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm:353:1: warning: control reaches end of non-void function [-Wreturn-type,3]
+o }
+o ^
+o/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm:361:3:{361:3-361:58}: warning: instance method '-initializeSparkyJoystick:' not found (return type defaults to 'id') [3]
+o                 [self initializeSparkyJoystick:@"FROM control timer\n"];
+o                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o13 warnings generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm6dfeff0e2ab4b441^21cca9132ab4b441^-3265"In file included from /Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm:8:/Developer/git/Sparky_RedPark/SparkyController/SparkyController.h:48:1:{48:4-48:8}: warning: method is expected to return an instance of its class type 'SparkyController', but is declared to return 'void' [6] - (void)init; ^  ~~~~/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:72:1: note: overridden method is part of the 'init' method family [6] - (id)init; ^/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm:45:2:{45:2-45:5}: warning: expression result unused [-Wunused-value,12]         bar;         ^~~/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm:116:8:{116:8-116:12}: warning: format string is not a string literal (potentially insecure) [-Wformat-security,9]         NSLog(line);               ^~~~/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm:176:8:{176:8-176:15}: warning: format string is not a string literal (potentially insecure) [-Wformat-security,9]         NSLog(command);               ^~~~~~~/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm:198:8:{198:8-198:15}: warning: format string is not a string literal (potentially insecure) [-Wformat-security,9]         NSLog(command);               ^~~~~~~/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm:218:8:{218:8-218:15}: warning: format string is not a string literal (potentially insecure) [-Wformat-security,9]         NSLog(command);               ^~~~~~~/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm:238:8:{238:8-238:15}: warning: format string is not a string literal (potentially insecure) [-Wformat-security,9]         NSLog(command);               ^~~~~~~/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm:249:8:{249:8-249:15}: warning: format string is not a string literal (potentially insecure) [-Wformat-security,9]         NSLog(command);               ^~~~~~~/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm:261:8:{261:8-261:15}: warning: format string is not a string literal (potentially insecure) [-Wformat-security,9]         NSLog(command);               ^~~~~~~/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm:312:32: warning: 'cString' is deprecated [-Wdeprecated-declarations,8]         char *command_cstr = (char *)[command cString];                                       ^/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm:352:14: warning: unused variable 'data' [-Wunused-variable,12]     NSData * data = [NSURLConnection sendSynchronousRequest:request returningResponse:&resp error:&err];              ^/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm:353:1: warning: control reaches end of non-void function [-Wreturn-type,3] } ^/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm:361:3:{361:3-361:58}: warning: instance method '-initializeSparkyJoystick:' not found (return type defaults to 'id') [3]                 [self initializeSparkyJoystick:@"FROM control timer\n"];                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~13 warnings generated.14(21%IDEActivityLogMessage2@111"Method is expected to return an instance of its class type 'SparkyController', but is declared to return 'void'-347351571#92#209#2(36%IDEActivityLogHeaderInclusionMessage3@91"In file included from /Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm:8:-347351571#0#92#-0#-23%DVTTextDocumentLocation4@82"file://localhost/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm0000000000000000^7#18446744073709551615#7#18446744073709551615#18446744073709551615#0#---2@180"Method is expected to return an instance of its class type 'SparkyController', but is declared to return 'void' in /Developer/git/Sparky_RedPark/SparkyController/SparkyController.h-347351571#18446744073709551615#0#-0#-4@81"file://localhost/Developer/git/Sparky_RedPark/SparkyController/SparkyController.h0000000000000000^47#0#47#0#18446744073709551615#0#---1#-4@81"file://localhost/Developer/git/Sparky_RedPark/SparkyController/SparkyController.h0000000000000000^47#0#47#0#18446744073709551615#0#25"Related Result Type Issue1(4@81"file://localhost/Developer/git/Sparky_RedPark/SparkyController/SparkyController.h0000000000000000^47#3#47#7#18446744073709551615#0#-2@53"Overridden method is part of the 'init' method family-347351571#325#167#-0#-4@112"file://localhost/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h0000000000000000^71#0#71#0#18446744073709551615#0#25"Related Result Type Issue--2@24"Expression result unused-347351571#508#139#-1#-4@82"file://localhost/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm0000000000000000^44#1#44#1#18446744073709551615#0#19"Unused Entity Issue1(4@82"file://localhost/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm0000000000000000^44#1#44#4#18446744073709551615#0#-2@60"Format string is not a string literal (potentially insecure)37"Format string is not a string literal347351571#674#181#-1#-4@82"file://localhost/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm0000000000000000^115#7#115#7#18446744073709551615#0#19"Format String Issue1(4@82"file://localhost/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm0000000000000000^115#7#115#11#18446744073709551615#0#-2@60"Format string is not a string literal (potentially insecure)37"Format string is not a string literal347351571#897#181#-1#-4@82"file://localhost/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm0000000000000000^175#7#175#7#18446744073709551615#0#19"Format String Issue1(4@82"file://localhost/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm0000000000000000^175#7#175#14#18446744073709551615#0#-2@60"Format string is not a string literal (potentially insecure)37"Format string is not a string literal347351571#1126#181#-1#-4@82"file://localhost/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm0000000000000000^197#7#197#7#18446744073709551615#0#19"Format String Issue1(4@82"file://localhost/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm0000000000000000^197#7#197#14#18446744073709551615#0#-2@60"Format string is not a string literal (potentially insecure)37"Format string is not a string literal347351571#1355#181#-1#-4@82"file://localhost/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm0000000000000000^217#7#217#7#18446744073709551615#0#19"Format String Issue1(4@82"file://localhost/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm0000000000000000^217#7#217#14#18446744073709551615#0#-2@60"Format string is not a string literal (potentially insecure)37"Format string is not a string literal347351571#1584#181#-1#-4@82"file://localhost/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm0000000000000000^237#7#237#7#18446744073709551615#0#19"Format String Issue1(4@82"file://localhost/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm0000000000000000^237#7#237#14#18446744073709551615#0#-2@60"Format string is not a string literal (potentially insecure)37"Format string is not a string literal347351571#1813#181#-1#-4@82"file://localhost/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm0000000000000000^248#7#248#7#18446744073709551615#0#19"Format String Issue1(4@82"file://localhost/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm0000000000000000^248#7#248#14#18446744073709551615#0#-2@60"Format string is not a string literal (potentially insecure)37"Format string is not a string literal347351571#2042#181#-1#-4@82"file://localhost/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm0000000000000000^260#7#260#7#18446744073709551615#0#19"Format String Issue1(4@82"file://localhost/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm0000000000000000^260#7#260#14#18446744073709551615#0#-2@23"'cString' is deprecated-347351571#2271#138#-1#-4@82"file://localhost/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm0000000000000000^311#31#311#31#18446744073709551615#0#12"Deprecations--2@22"Unused variable 'data'-347351571#2507#130#-1#-4@82"file://localhost/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm0000000000000000^351#13#351#13#18446744073709551615#0#19"Unused Entity Issue--2@40"Control reaches end of non-void function-347351571#2759#142#-1#-4@82"file://localhost/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm0000000000000000^352#0#352#0#18446744073709551615#0#14"Semantic Issue--2@85"Instance method '-initializeSparkyJoystick:' not found (return type defaults to 'id')54"Instance method '-initializeSparkyJoystick:' not found347351571#2907#188#-1#-4@82"file://localhost/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm0000000000000000^360#2#360#2#18446744073709551615#0#14"Semantic Issue1(4@82"file://localhost/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm0000000000000000^360#2#360#57#18446744073709551615#0#-0#0#0#-19%DVTDocumentLocation5@82"file://localhost/Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm0000000000000000^1856"CompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/SparkyController.o SparkyController.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/git/Sparky_RedPark/SparkyController    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.4 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Developer/git/Sparky_RedPark/SparkyController/build/SparkyController.build/Debug/SparkyController.build/SparkyController.hmap -I/Developer/git/Sparky_RedPark/SparkyController/build/Debug/include -I/Developer/git/Sparky_RedPark/SparkyController/build/SparkyController.build/Debug/SparkyController.build/DerivedSources/i386 -I/Developer/git/Sparky_RedPark/SparkyController/build/SparkyController.build/Debug/SparkyController.build/DerivedSources -F/Developer/git/Sparky_RedPark/SparkyController/build/Debug -MMD -MT dependencies -MF /Developer/git/Sparky_RedPark/SparkyController/build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/SparkyController.d -c /Developer/git/Sparky_RedPark/SparkyController/SparkyController.mm -o /Developer/git/Sparky_RedPark/SparkyController/build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/SparkyController.o36"D304D4C8-C03D-4659-95B0-8A173BD0B2C7-
+
+CCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/main-666ECBEBF84EE32.o /Developer/git/Sparky_RedPark/SparkyController/main.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/main-AFE932F83A61729.o /Developer/main.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
 CCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/main.o /Developer/btstack/example/SparkyController/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s326692805.840631
 e326692806.829469
@@ -1354,6 +1622,12 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@76"Compile /Developer/fliners/johnandbrendan.com/sparky/SparkyController/main.m310625004#310625006#0(0"0(0#0#68"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/main.m8603927616#1164"    cd /Developer/fliners/johnandbrendan.com/sparky/SparkyController    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/SparkyController.build/Debug/SparkyController.build/SparkyController.hmap -F/Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/Debug -I/Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/Debug/include -I/Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/SparkyController.build/Debug/SparkyController.build/DerivedSources/i386 -I/Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/SparkyController.build/Debug/SparkyController.build/DerivedSources -c /Developer/fliners/johnandbrendan.com/sparky/SparkyController/main.m -o /Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/main.o0#
 
+CCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/main.o /Developer/git/Sparky_RedPark/SparkyController/main.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/main.o /Developer/main.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
 CCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/sparky_utils.o /Developer/btstack/example/SparkyController/../sparky_utils.c normal i386 c com.apple.compilers.gcc.4_2
 s328764850.597294
 e328764852.252224
@@ -1387,6 +1661,32 @@ o/Developer/fliners/johnandbrendan.com/sparky/SparkyController/../sparky_tcp/spa
 o/Developer/fliners/johnandbrendan.com/sparky/SparkyController/../sparky_tcp/sparky_utils.c:66: warning: unused variable 'len'
 o/Developer/fliners/johnandbrendan.com/sparky/SparkyController/../sparky_tcp/sparky_utils.c:65: warning: unused variable 'i'
 lSLF07#2@98"Compile /Developer/fliners/johnandbrendan.com/sparky/SparkyController/../sparky_tcp/sparky_utils.c311144896#311144897#0(494"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/../sparky_tcp/sparky_utils.c: In function 'open_socket':/Developer/fliners/johnandbrendan.com/sparky/SparkyController/../sparky_tcp/sparky_utils.c:67: warning: unused variable 'fd'/Developer/fliners/johnandbrendan.com/sparky/SparkyController/../sparky_tcp/sparky_utils.c:66: warning: unused variable 'len'/Developer/fliners/johnandbrendan.com/sparky/SparkyController/../sparky_tcp/sparky_utils.c:65: warning: unused variable 'i'3(22@20"Unused variable 'fd'311144897#119#125#0(6@90"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/../sparky_tcp/sparky_utils.c311144673#67#0#67#0#19"unused variable '*'0(22@21"Unused variable 'len'311144897#244#126#0(6@90"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/../sparky_tcp/sparky_utils.c311144673#66#0#66#0#19"unused variable '*'0(22@19"Unused variable 'i'311144897#370#124#0(6@90"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/../sparky_tcp/sparky_utils.c311144673#65#0#65#0#19"unused variable '*'0(0#0#90"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/../sparky_tcp/sparky_utils.c8611828608#1184"    cd /Developer/fliners/johnandbrendan.com/sparky/SparkyController    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/SparkyController.build/Debug/SparkyController.build/SparkyController.hmap -F/Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/Debug -I/Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/Debug/include -I/Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/SparkyController.build/Debug/SparkyController.build/DerivedSources/i386 -I/Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/SparkyController.build/Debug/SparkyController.build/DerivedSources -c /Developer/fliners/johnandbrendan.com/sparky/SparkyController/../sparky_tcp/sparky_utils.c -o /Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/sparky_utils.o0#
+
+CCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/sparky_utils.o /Developer/git/Sparky_RedPark/SparkyController/../sparky_utils.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s347351453.766844
+e347351455.033100
+r1
+xCompileC
+xbuild/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/sparky_utils.o
+x/Developer/git/Sparky_RedPark/SparkyController/../sparky_utils.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Developer/git/Sparky_RedPark/SparkyController/../sparky_utils.c:65:10: warning: unused variable 'len' [-Wunused-variable,12]
+o int err, len;
+o          ^
+o/Developer/git/Sparky_RedPark/SparkyController/../sparky_utils.c:66:5: warning: unused variable 'fd' [-Wunused-variable,12]
+o int fd;
+o     ^
+o/Developer/git/Sparky_RedPark/SparkyController/../sparky_utils.c:64:13: warning: unused variable 'i' [-Wunused-variable,12]
+o int         i;
+o             ^
+o/Developer/git/Sparky_RedPark/SparkyController/../sparky_utils.c:151:9: warning: implicit declaration of function 'connect_server_ex' is invalid in C99 [-Wimplicit-function-declaration,3]
+o         return connect_server_ex(port,SERVER_NAME);
+o                ^
+o4 warnings generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Developer/git/Sparky_RedPark/SparkyController/../sparky_utils.c5587c49d29b4b441^7098089f29b4b441^-729"/Developer/git/Sparky_RedPark/SparkyController/../sparky_utils.c:65:10: warning: unused variable 'len' [-Wunused-variable,12] int err, len;          ^/Developer/git/Sparky_RedPark/SparkyController/../sparky_utils.c:66:5: warning: unused variable 'fd' [-Wunused-variable,12] int fd;     ^/Developer/git/Sparky_RedPark/SparkyController/../sparky_utils.c:64:13: warning: unused variable 'i' [-Wunused-variable,12] int         i;             ^/Developer/git/Sparky_RedPark/SparkyController/../sparky_utils.c:151:9: warning: implicit declaration of function 'connect_server_ex' is invalid in C99 [-Wimplicit-function-declaration,3]         return connect_server_ex(port,SERVER_NAME);                ^4 warnings generated.4(21%IDEActivityLogMessage2@21"Unused variable 'len'-347351454#0#126#-1#-23%DVTTextDocumentLocation3@60"file://localhost/Developer/git/Sparky_RedPark/sparky_utils.c0000000000000000^64#9#64#9#18446744073709551615#0#19"Unused Entity Issue--2@20"Unused variable 'fd'-347351454#153#124#-1#-3@60"file://localhost/Developer/git/Sparky_RedPark/sparky_utils.c0000000000000000^65#4#65#4#18446744073709551615#0#19"Unused Entity Issue--2@19"Unused variable 'i'-347351454#293#124#-1#-3@60"file://localhost/Developer/git/Sparky_RedPark/sparky_utils.c0000000000000000^63#12#63#12#18446744073709551615#0#19"Unused Entity Issue--2@70"Implicit declaration of function 'connect_server_ex' is invalid in C99-347351454#448#188#-1#-3@60"file://localhost/Developer/git/Sparky_RedPark/sparky_utils.c0000000000000000^150#8#150#8#18446744073709551615#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@80"file://localhost/Developer/git/Sparky_RedPark/SparkyController/../sparky_utils.c0000000000000000^1593"CompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/sparky_utils.o ../sparky_utils.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/git/Sparky_RedPark/SparkyController    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.4 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -I/Developer/git/Sparky_RedPark/SparkyController/build/SparkyController.build/Debug/SparkyController.build/SparkyController.hmap -I/Developer/git/Sparky_RedPark/SparkyController/build/Debug/include -I/Developer/git/Sparky_RedPark/SparkyController/build/SparkyController.build/Debug/SparkyController.build/DerivedSources/i386 -I/Developer/git/Sparky_RedPark/SparkyController/build/SparkyController.build/Debug/SparkyController.build/DerivedSources -F/Developer/git/Sparky_RedPark/SparkyController/build/Debug -MMD -MT dependencies -MF /Developer/git/Sparky_RedPark/SparkyController/build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/sparky_utils.d -c /Developer/git/Sparky_RedPark/SparkyController/../sparky_utils.c -o /Developer/git/Sparky_RedPark/SparkyController/build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/sparky_utils.o36"5BD3C78D-057B-4AE1-9DED-66381B0C5CBF-
 
 CCompileC build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/sparky_utils.o /Developer/sparky_redpark/SparkyController/../sparky_utils.c normal i386 c com.apple.compilers.llvmgcc42
 s339384300.990210
@@ -1709,6 +2009,9 @@ xEnglish.lproj/InfoPlist.strings
 o/Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings:125: warning: Insecure world writable dir /Users/johncelenza/stanford/hw/cs348b/pbrt-1.04/bin in PATH, mode 040777
 lSLF07#2@36"Copy English.lproj/InfoPlist.strings310624983#310624984#0(204"/Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings:125: warning: Insecure world writable dir /Users/johncelenza/stanford/hw/cs348b/pbrt-1.04/bin in PATH, mode 0407770(0#0#93"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/English.lproj/InfoPlist.strings8603828032#421"    cd /Developer/fliners/johnandbrendan.com/sparky/SparkyController    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/Debug/SparkyController.app/Contents/Resources/English.lproj0#
 
+CCopyStringsFile /Developer/git/Sparky_RedPark/SparkyController/build/Debug/SparkyController.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+r0
+
 CCopyStringsFile /Developer/sparky_redpark/SparkyController/build/Debug/SparkyController.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
 r0
 
@@ -1782,6 +2085,16 @@ xnormal
 xppc
 lSLF07#2@160"Link /Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/SparkyController.build/Debug/SparkyController.build/Objects-normal/ppc/SparkyController311144936#311144937#0(0"0(0#0#0"8610670432#725"    cd /Developer/fliners/johnandbrendan.com/sparky/SparkyController    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/Debug -F/Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/Debug -filelist /Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/SparkyController.build/Debug/SparkyController.build/Objects-normal/ppc/SparkyController.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -o /Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/SparkyController.build/Debug/SparkyController.build/Objects-normal/ppc/SparkyController0#
 
+CLd /Developer/git/Sparky_RedPark/SparkyController/build/Debug/SparkyController.app/Contents/MacOS/SparkyController normal i386
+s347351571.670608
+e347351573.731633
+r1
+xLd
+x/Developer/git/Sparky_RedPark/SparkyController/build/Debug/SparkyController.app/Contents/MacOS/SparkyController
+xnormal
+xi386
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Link /Developer/git/Sparky_RedPark/SparkyController/build/Debug/SparkyController.app/Contents/MacOS/SparkyController72c3ab132ab4b441^2c67bb152ab4b441^---0#0#0#--720"Ld build/Debug/SparkyController.app/Contents/MacOS/SparkyController normal i386    cd /Developer/git/Sparky_RedPark/SparkyController    setenv MACOSX_DEPLOYMENT_TARGET 10.4    /Developer/usr/bin/clang++ -arch i386 -isysroot /Developer/SDKs/MacOSX10.7.sdk -L/Developer/git/Sparky_RedPark/SparkyController/build/Debug -F/Developer/git/Sparky_RedPark/SparkyController/build/Debug -filelist /Developer/git/Sparky_RedPark/SparkyController/build/SparkyController.build/Debug/SparkyController.build/Objects-normal/i386/SparkyController.LinkFileList -mmacosx-version-min=10.4 -framework Cocoa -framework IOKit -o /Developer/git/Sparky_RedPark/SparkyController/build/Debug/SparkyController.app/Contents/MacOS/SparkyController36"98B3D060-B982-4052-8377-CA8F674AD281-
+
 CLd /Developer/sparky_redpark/SparkyController/build/Debug/SparkyController.app/Contents/MacOS/SparkyController normal i386
 s339384343.265373
 e339384344.806397
@@ -1810,6 +2123,9 @@ x/Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/Debug/Spark
 xInfo.plist
 lSLF07#2@18"Process Info.plist310624983#310624983#0(0"0(0#0#72"/Developer/fliners/johnandbrendan.com/sparky/SparkyController/Info.plist30399774233591924#389"    cd /Developer/fliners/johnandbrendan.com/sparky/SparkyController    builtin-infoPlistUtility Info.plist -genpkginfo /Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/Debug/SparkyController.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/Debug/SparkyController.app/Contents/Info.plist0#
 
+CProcessInfoPlistFile /Developer/git/Sparky_RedPark/SparkyController/build/Debug/SparkyController.app/Contents/Info.plist Info.plist
+r0
+
 CProcessInfoPlistFile /Developer/sparky_redpark/SparkyController/build/Debug/SparkyController.app/Contents/Info.plist Info.plist
 r0
 
@@ -1822,6 +2138,9 @@ x/Developer/btstack/example/SparkyController/English.lproj/MainMenu.nib
 lSLF07#2@35"StripNIB English.lproj/MainMenu.nib328764848#328764850#0(0"0(0#0#70"/Developer/btstack/example/SparkyController/English.lproj/MainMenu.nib8606270208#319"    cd /Developer/btstack/example/SparkyController    /Developer/usr/bin/ibtool --strip /Developer/btstack/example/SparkyController/build/Debug/SparkyController.app/Contents/Resources/English.lproj/MainMenu.nib --output-format human-readable-text /Developer/btstack/example/SparkyController/English.lproj/MainMenu.nib0#
 
 CStripNIB /Developer/fliners/johnandbrendan.com/sparky/SparkyController/English.lproj/MainMenu.nib
+r0
+
+CStripNIB /Developer/git/Sparky_RedPark/SparkyController/English.lproj/MainMenu.nib
 r0
 
 CStripNIB /Developer/sparky_redpark/SparkyController/English.lproj/MainMenu.nib
@@ -1847,6 +2166,14 @@ r1
 xTouch
 x/Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/Debug/SparkyController.app
 lSLF07#2@100"Touch /Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/Debug/SparkyController.app311144937#311144938#0(0"0(0#0#0"8611718208#186"    cd /Developer/fliners/johnandbrendan.com/sparky/SparkyController    /usr/bin/touch -c /Developer/fliners/johnandbrendan.com/sparky/SparkyController/build/Debug/SparkyController.app0#
+
+CTouch /Developer/git/Sparky_RedPark/SparkyController/build/Debug/SparkyController.app
+s347351573.739875
+e347351573.823202
+r1
+xTouch
+x/Developer/git/Sparky_RedPark/SparkyController/build/Debug/SparkyController.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Touch /Developer/git/Sparky_RedPark/SparkyController/build/Debug/SparkyController.app577abd152ab4b441^6abed2152ab4b441^---0#0#0#--195"Touch build/Debug/SparkyController.app    cd /Developer/git/Sparky_RedPark/SparkyController    /usr/bin/touch -c /Developer/git/Sparky_RedPark/SparkyController/build/Debug/SparkyController.app36"2A07B515-0045-4154-81EE-D3AFD80307F5-
 
 CTouch /Developer/sparky_redpark/SparkyController/build/Debug/SparkyController.app
 s339384344.814694

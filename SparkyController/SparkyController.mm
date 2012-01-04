@@ -20,9 +20,13 @@ NSString* const cMyApplicationName = @"Drive Sparky";
 
 
 @implementation SparkyController
+@synthesize foo;
+
 @synthesize mJoystick;
 @synthesize mLeftJoystickAxis;
 @synthesize mRightJoystickAxis;
+@synthesize maxSpeed;
+@synthesize sensitivity;
 
 ///INIT///
 - (void)init
@@ -38,7 +42,7 @@ NSString* const cMyApplicationName = @"Drive Sparky";
 	mJoystick = NULL;
 
 	
-	
+	bar;
 	
 }
 
@@ -113,6 +117,7 @@ NSString* const cMyApplicationName = @"Drive Sparky";
 	NSLog(@"\n");
 }
 
+/* the simple control buttons on user interface hook here */
 - (IBAction)onMoveLeft:(id)sender
 {
 	NSString *command = [NSString stringWithFormat:@"move_left"];
@@ -235,6 +240,18 @@ NSString* const cMyApplicationName = @"Drive Sparky";
 	[self sendCommand:command];
 	
 }
+
+- (void)Stop
+{
+	NSString *command = [NSString stringWithFormat:@"stop"];
+	
+	NSLog(@"Stop");
+	NSLog(command);
+	
+	[self sendCommand:command];
+	
+}
+
 
 - (IBAction)onMoveRight:(id)sender
 {
@@ -405,10 +422,25 @@ NSString* const cMyApplicationName = @"Drive Sparky";
 			
 			leftPercentInt -= leftPercentInt % 10;
 			rightPercentInt -= rightPercentInt % 10;
+            
 			
 			//to be friendlier on chattiness, quantize the percentages
 			//sprintf(new_command,"%s_L_%.2f_R_%.2f",   command, leftPercentInt/100.0, rightPercentInt/100.0);
-			sprintf(new_command,"_slider0_%.0f_slider1_%.0f",  leftPercentInt/100.0*(float)[reverse0 intValue], rightPercentInt/100.0*[reverse1 intValue]);
+			//sprintf(new_command,"_slider0_%.0f_slider1_%.0f",  leftPercentInt/100.0*(float)[reverse0 intValue], rightPercentInt/100.0*[reverse1 intValue]);
+            
+            //create the command string
+            //supports the new maxSpeed and sensitivity control 
+            // these values are used as follows:
+            /*
+                maxSpeed is the largest value that will be sent for slider0 (vertical axis)
+                such that speed = min(speed, maxSpeed)
+             
+             */
+            float speed = leftPercentInt/100.0*(float)[reverse0 intValue];
+            if (speed > (float)[maxSpeed intValue])
+                speed = [maxSpeed intValue];
+            sprintf(new_command,"_slider0_%.0f_slider1_%.0f",  speed, rightPercentInt/100.0*[reverse1 intValue]);
+
 			//
 //			NSString *motor_str = [NSString stringWithFormat:@"_slider0_%d_slider1_%d",[reverse0 intValue], [reverse1 intValue]];
 

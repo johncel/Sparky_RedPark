@@ -13,6 +13,7 @@
 
 #import "STJoystick.h"
 
+int bar = 0;
 
 @interface SparkyController : NSObject 
 {
@@ -32,12 +33,15 @@
 	IBOutlet id straight1;
 	IBOutlet id reverse0;
 	IBOutlet id reverse1;
+    
+    IBOutlet id maxSpeed;
+    IBOutlet id sensitivity;
 	
 	STJoystick* mJoystick;
 	int mLeftJoystickAxis;
 	int mRightJoystickAxis;
 
-	
+	NSString *foo;
 	
 }
 
@@ -62,15 +66,18 @@
 - (void)MoveRight:(NSString *)attr;
 - (void)MoveLeft:(NSString *)attr;
 - (void)MoveReverse:(NSString *)attr;
+- (void)Stop;
 
 
 
 - (void)sendCommand: (NSString *)command;
 -(NSMutableString *)http_sendMoveCommand:(NSString*)action;
+@property(nonatomic, retain) NSString *foo;
+
 @property STJoystick *mJoystick;
 @property int mLeftJoystickAxis;
 @property int mRightJoystickAxis;
-
-
+@property(nonatomic, retain) IBOutlet id maxSpeed;
+@property(nonatomic, retain) IBOutlet id sensitivity;
 
 @end
