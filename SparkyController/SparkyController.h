@@ -13,7 +13,7 @@
 
 #import "STJoystick.h"
 
-int bar = 0;
+//int bar = 0;
 
 @interface SparkyController : NSObject 
 {

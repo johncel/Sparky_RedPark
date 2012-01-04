@@ -42,7 +42,7 @@ NSString* const cMyApplicationName = @"Drive Sparky";
 	mJoystick = NULL;
 
 	
-	bar;
+	//bar;
 	
 }
 
