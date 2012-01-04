@@ -33,12 +33,12 @@
 		B68EE95F0DBA4C8000F88111 /* SparkyController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SparkyController.h; sourceTree = "<group>"; };
 		B6D157E50DC5049A001D824C /* sparky_utils.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = sparky_utils.c; path = ../sparky_utils.c; sourceTree = SOURCE_ROOT; };
 		B6D157E60DC5049A001D824C /* sparky_utils.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = sparky_utils.h; path = ../sparky_utils.h; sourceTree = SOURCE_ROOT; };
-		B6E972651378E7D500463581 /* SparkyController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SparkyController.mm; path = btstack/example/SparkyController/SparkyController.mm; sourceTree = SYSTEM_DEVELOPER_DIR; };
-		B6E9729F1378E9FB00463581 /* KeyReaderView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = KeyReaderView.mm; path = btstack/example/SparkyController/KeyReaderView.mm; sourceTree = SYSTEM_DEVELOPER_DIR; };
-		B6E972C91378EC8200463581 /* STJoystick_darwin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = STJoystick_darwin.cpp; path = btstack/example/SparkyController/STJoystick_darwin.cpp; sourceTree = SYSTEM_DEVELOPER_DIR; };
+		B6E972651378E7D500463581 /* SparkyController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SparkyController.mm; path = SparkyController.mm; sourceTree = SYSTEM_DEVELOPER_DIR; };
+		B6E9729F1378E9FB00463581 /* KeyReaderView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = KeyReaderView.mm; path = KeyReaderView.mm; sourceTree = SYSTEM_DEVELOPER_DIR; };
+		B6E972C91378EC8200463581 /* STJoystick_darwin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = STJoystick_darwin.cpp; path = STJoystick_darwin.cpp; sourceTree = SYSTEM_DEVELOPER_DIR; };
 		B6E972E21378ED2400463581 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
-		B6E973151378F02500463581 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = main.mm; path = btstack/example/SparkyController/main.mm; sourceTree = SYSTEM_DEVELOPER_DIR; };
-		B6E9731F1378F0D900463581 /* STJoystick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = STJoystick.cpp; path = btstack/example/SparkyController/STJoystick.cpp; sourceTree = SYSTEM_DEVELOPER_DIR; };
+		B6E973151378F02500463581 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = main.mm; path = main.mm; sourceTree = SYSTEM_DEVELOPER_DIR; };
+		B6E9731F1378F0D900463581 /* STJoystick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = STJoystick.cpp; path = STJoystick.cpp; sourceTree = SYSTEM_DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

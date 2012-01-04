@@ -597,8 +597,8 @@ read_more:
 
 							}
 							controller_input_this[0] = 0;
-							//if (index >= 0)
-								//goto write_sparky;
+							if (index >= 0)
+								goto write_sparky;
 
 						}
 
