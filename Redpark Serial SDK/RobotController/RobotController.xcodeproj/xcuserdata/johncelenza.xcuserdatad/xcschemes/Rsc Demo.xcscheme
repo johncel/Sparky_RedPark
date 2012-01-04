@@ -14,9 +14,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-               BuildableName = "Rsc Demo.app"
-               BlueprintName = "Rsc Demo"
-               ReferencedContainer = "container:Rsc Demo.xcodeproj">
+               BuildableName = "RobotController.app"
+               BlueprintName = "RobotController"
+               ReferencedContainer = "container:RobotController.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,6 +28,15 @@
       buildConfiguration = "Debug">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
+            BuildableName = "RobotController.app"
+            BlueprintName = "RobotController"
+            ReferencedContainer = "container:RobotController.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.GDB"
@@ -36,14 +45,16 @@
       displayScale = "1.00"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Debug">
+      buildConfiguration = "Debug"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-            BuildableName = "Rsc Demo.app"
-            BlueprintName = "Rsc Demo"
-            ReferencedContainer = "container:Rsc Demo.xcodeproj">
+            BuildableName = "RobotController.app"
+            BlueprintName = "RobotController"
+            ReferencedContainer = "container:RobotController.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -60,14 +71,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release">
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-            BuildableName = "Rsc Demo.app"
-            BlueprintName = "Rsc Demo"
-            ReferencedContainer = "container:Rsc Demo.xcodeproj">
+            BuildableName = "RobotController.app"
+            BlueprintName = "RobotController"
+            ReferencedContainer = "container:RobotController.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
