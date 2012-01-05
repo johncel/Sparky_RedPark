@@ -780,6 +780,7 @@ int process_command_string(char *command, uint8_t *data, int *len)
         strcpy(SERVER_NAME,"johncelenza.com");
         strcpy(USER_NAME,"sally");
         strcpy(PASSWORD,"struthers");
+        
     }
     
     //create sparky log
@@ -1222,7 +1223,7 @@ int process_command_string(char *command, uint8_t *data, int *len)
 	
 	// In general, this would be a good place to setBaud, setDataSize, etc...
 	// Example
-	// [rscMgr setBaud:57600];
+	[rscMgr setBaud:57600];
 	
 	// Now open the serial communication session using the
 	// serial port configuration options we've already set.
