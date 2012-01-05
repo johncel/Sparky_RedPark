@@ -100,7 +100,7 @@
 					<object class="IBUIViewController" id="619226028">
 						<reference key="IBUIToolbarItems" ref="0"/>
 						<object class="IBUINavigationItem" key="IBUINavigationItem" id="394667715">
-							<string key="IBUITitle">Redpark Serial</string>
+							<string key="IBUITitle">iSparky Robot</string>
 							<object class="IBUIBarButtonItem" key="IBUIRightBarButtonItem" id="493825653">
 								<string key="IBUITitle">Loop Test</string>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>

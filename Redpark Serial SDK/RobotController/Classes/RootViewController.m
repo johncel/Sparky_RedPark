@@ -251,7 +251,7 @@ void move_dir(uint8_t *data, int *len, char *action)
     {
         int min_slider1 = 10;
         //velocity = slider0*2.0;
-        velocity = slider0*3.0;
+        velocity = slider0*6.0;
         //radius = slider1/100.0;       
         if (slider1 > min_slider1)
             radius = -1*(101.f - slider1)*10;

@@ -439,6 +439,8 @@ NSString* const cMyApplicationName = @"Drive Sparky";
             float speed = leftPercentInt/100.0*(float)[reverse0 intValue];
             if (speed > (float)[maxSpeed intValue])
                 speed = [maxSpeed intValue];
+            if (speed < -(float)[maxSpeed intValue])
+                speed = -[maxSpeed intValue];
             sprintf(new_command,"_slider0_%.0f_slider1_%.0f",  speed, rightPercentInt/100.0*[reverse1 intValue]);
 
 			//
