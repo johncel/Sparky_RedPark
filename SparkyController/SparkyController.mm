@@ -442,11 +442,25 @@ NSString* const cMyApplicationName = @"Drive Sparky";
                 such that speed = min(speed, maxSpeed)
              
              */
+            
+            int max_speed = [maxSpeed intValue];
+            
+            //scan buttons, if one pressed, 2x speed
+            for (int i = 0; i < mJoystick->NumButtons();i++)
+            {
+                unsigned char b = mJoystick->GetButton(i);
+                if (b)
+                {
+                    max_speed *= 2;
+                    NSLog(@"button %d has value %u\n", i, (unsigned int)b);
+                }
+            }
+            
             float speed = leftPercentInt/100.0*(float)[reverse0 intValue];
-            if (speed > (float)[maxSpeed intValue])
-                speed = [maxSpeed intValue];
-            if (speed < -(float)[maxSpeed intValue])
-                speed = -[maxSpeed intValue];
+            if (speed > (float)max_speed)
+                speed = max_speed;
+            if (speed < -(float)max_speed)
+                speed = -max_speed;
             sprintf(new_command,"_slider0_%.0f_slider1_%.0f",  speed, rightPercentInt/100.0*[reverse1 intValue]);
 
 			//
