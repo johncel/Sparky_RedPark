@@ -25,23 +25,22 @@
 		3FC4B24213981745000E0339 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC4B24113981745000E0339 /* iTunesArtwork.png */; };
 		3FD39A90130DE08800F786BA /* SelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD39A8E130DE08800F786BA /* SelectionViewController.m */; };
 		3FD39A91130DE08800F786BA /* SelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FD39A8F130DE08800F786BA /* SelectionViewController.xib */; };
-		B61BBAC7142E918F00C8B33F /* Roomba.png in Resources */ = {isa = PBXBuildFile; fileRef = B61BBAC6142E918F00C8B33F /* Roomba.png */; };
 		B61BBACB142EE0C400C8B33F /* DashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B61BBACA142EE0C400C8B33F /* DashViewController.m */; };
 		B61BBACF142EE66200C8B33F /* DashView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B61BBACE142EE66200C8B33F /* DashView.xib */; };
-		B63A9F5C1440EF0B00BF7893 /* sparky_dashboard_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = B63A9F5B1440EF0B00BF7893 /* sparky_dashboard_bg.png */; };
-		B63A9F651440F1C000BF7893 /* sparky_dashboard_speed-1.png in Resources */ = {isa = PBXBuildFile; fileRef = B63A9F5E1440F1C000BF7893 /* sparky_dashboard_speed-1.png */; };
-		B63A9F661440F1C000BF7893 /* sparky_dashboard_speed-2.png in Resources */ = {isa = PBXBuildFile; fileRef = B63A9F5F1440F1C000BF7893 /* sparky_dashboard_speed-2.png */; };
-		B63A9F671440F1C000BF7893 /* sparky_dashboard_speed-3.png in Resources */ = {isa = PBXBuildFile; fileRef = B63A9F601440F1C000BF7893 /* sparky_dashboard_speed-3.png */; };
-		B63A9F681440F1C000BF7893 /* sparky_dashboard_speed0.png in Resources */ = {isa = PBXBuildFile; fileRef = B63A9F611440F1C000BF7893 /* sparky_dashboard_speed0.png */; };
-		B63A9F691440F1C000BF7893 /* sparky_dashboard_speed1.png in Resources */ = {isa = PBXBuildFile; fileRef = B63A9F621440F1C000BF7893 /* sparky_dashboard_speed1.png */; };
-		B63A9F6A1440F1C000BF7893 /* sparky_dashboard_speed2.png in Resources */ = {isa = PBXBuildFile; fileRef = B63A9F631440F1C000BF7893 /* sparky_dashboard_speed2.png */; };
-		B63A9F6B1440F1C000BF7893 /* sparky_dashboard_speed3.png in Resources */ = {isa = PBXBuildFile; fileRef = B63A9F641440F1C000BF7893 /* sparky_dashboard_speed3.png */; };
-		B63A9F6D1442416400BF7893 /* indicator.png in Resources */ = {isa = PBXBuildFile; fileRef = B63A9F6C1442416400BF7893 /* indicator.png */; };
 		B66C1DC113DB760E0035C174 /* sparky_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = B66C1DBF13DB760E0035C174 /* sparky_utils.c */; };
 		B66C1DD213DCCE5C0035C174 /* EditFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = B66C1DCF13DCCE5C0035C174 /* EditFieldView.m */; };
 		B66C1DD413DCCE700035C174 /* TextViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B66C1DD313DCCE700035C174 /* TextViewCell.xib */; };
 		B66C1DD713DCD5490035C174 /* EditFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B66C1DD613DCD5490035C174 /* EditFieldViewController.m */; };
 		B66C1DD913DCD8100035C174 /* EditFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B66C1DD813DCD8100035C174 /* EditFieldView.xib */; };
+		DFE2419514B5389700243C45 /* Roomba.png in Resources */ = {isa = PBXBuildFile; fileRef = DFE2418C14B5389700243C45 /* Roomba.png */; };
+		DFE2419614B5389700243C45 /* sparky_dashboard_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = DFE2418D14B5389700243C45 /* sparky_dashboard_bg.png */; };
+		DFE2419714B5389700243C45 /* sparky_dashboard_speed-1.png in Resources */ = {isa = PBXBuildFile; fileRef = DFE2418E14B5389700243C45 /* sparky_dashboard_speed-1.png */; };
+		DFE2419814B5389700243C45 /* sparky_dashboard_speed-2.png in Resources */ = {isa = PBXBuildFile; fileRef = DFE2418F14B5389700243C45 /* sparky_dashboard_speed-2.png */; };
+		DFE2419914B5389700243C45 /* sparky_dashboard_speed-3.png in Resources */ = {isa = PBXBuildFile; fileRef = DFE2419014B5389700243C45 /* sparky_dashboard_speed-3.png */; };
+		DFE2419A14B5389700243C45 /* sparky_dashboard_speed0.png in Resources */ = {isa = PBXBuildFile; fileRef = DFE2419114B5389700243C45 /* sparky_dashboard_speed0.png */; };
+		DFE2419B14B5389700243C45 /* sparky_dashboard_speed1.png in Resources */ = {isa = PBXBuildFile; fileRef = DFE2419214B5389700243C45 /* sparky_dashboard_speed1.png */; };
+		DFE2419C14B5389700243C45 /* sparky_dashboard_speed2.png in Resources */ = {isa = PBXBuildFile; fileRef = DFE2419314B5389700243C45 /* sparky_dashboard_speed2.png */; };
+		DFE2419D14B5389700243C45 /* sparky_dashboard_speed3.png in Resources */ = {isa = PBXBuildFile; fileRef = DFE2419414B5389700243C45 /* sparky_dashboard_speed3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,19 +70,9 @@
 		3FD39A8E130DE08800F786BA /* SelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionViewController.m; sourceTree = "<group>"; };
 		3FD39A8F130DE08800F786BA /* SelectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectionViewController.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Rsc_Demo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Rsc_Demo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		B61BBAC6142E918F00C8B33F /* Roomba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Roomba.png; path = sparky_redpark/Roomba.png; sourceTree = DEVELOPER_DIR; };
 		B61BBAC9142EDE7100C8B33F /* DashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashViewController.h; sourceTree = "<group>"; };
 		B61BBACA142EE0C400C8B33F /* DashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashViewController.m; sourceTree = "<group>"; };
 		B61BBACE142EE66200C8B33F /* DashView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DashView.xib; sourceTree = "<group>"; };
-		B63A9F5B1440EF0B00BF7893 /* sparky_dashboard_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sparky_dashboard_bg.png; path = sparky_redpark/sparky_dashboard_bg.png; sourceTree = DEVELOPER_DIR; };
-		B63A9F5E1440F1C000BF7893 /* sparky_dashboard_speed-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sparky_dashboard_speed-1.png"; path = "sparky_redpark/sparky_dashboard_speed-1.png"; sourceTree = DEVELOPER_DIR; };
-		B63A9F5F1440F1C000BF7893 /* sparky_dashboard_speed-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sparky_dashboard_speed-2.png"; path = "sparky_redpark/sparky_dashboard_speed-2.png"; sourceTree = DEVELOPER_DIR; };
-		B63A9F601440F1C000BF7893 /* sparky_dashboard_speed-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sparky_dashboard_speed-3.png"; path = "sparky_redpark/sparky_dashboard_speed-3.png"; sourceTree = DEVELOPER_DIR; };
-		B63A9F611440F1C000BF7893 /* sparky_dashboard_speed0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sparky_dashboard_speed0.png; path = sparky_redpark/sparky_dashboard_speed0.png; sourceTree = DEVELOPER_DIR; };
-		B63A9F621440F1C000BF7893 /* sparky_dashboard_speed1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sparky_dashboard_speed1.png; path = sparky_redpark/sparky_dashboard_speed1.png; sourceTree = DEVELOPER_DIR; };
-		B63A9F631440F1C000BF7893 /* sparky_dashboard_speed2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sparky_dashboard_speed2.png; path = sparky_redpark/sparky_dashboard_speed2.png; sourceTree = DEVELOPER_DIR; };
-		B63A9F641440F1C000BF7893 /* sparky_dashboard_speed3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sparky_dashboard_speed3.png; path = sparky_redpark/sparky_dashboard_speed3.png; sourceTree = DEVELOPER_DIR; };
-		B63A9F6C1442416400BF7893 /* indicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = indicator.png; path = sparky_redpark/indicator.png; sourceTree = DEVELOPER_DIR; };
 		B66C1DBF13DB760E0035C174 /* sparky_utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sparky_utils.c; sourceTree = "<group>"; };
 		B66C1DC013DB760E0035C174 /* sparky_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sparky_utils.h; sourceTree = "<group>"; };
 		B66C1DCB13DCBE610035C174 /* createoi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = createoi.h; sourceTree = "<group>"; };
@@ -93,6 +82,15 @@
 		B66C1DD513DCD5490035C174 /* EditFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditFieldViewController.h; sourceTree = "<group>"; };
 		B66C1DD613DCD5490035C174 /* EditFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditFieldViewController.m; sourceTree = "<group>"; };
 		B66C1DD813DCD8100035C174 /* EditFieldView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EditFieldView.xib; path = Classes/EditFieldView.xib; sourceTree = "<group>"; };
+		DFE2418C14B5389700243C45 /* Roomba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Roomba.png; path = ../../Roomba.png; sourceTree = "<group>"; };
+		DFE2418D14B5389700243C45 /* sparky_dashboard_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sparky_dashboard_bg.png; path = ../../sparky_dashboard_bg.png; sourceTree = "<group>"; };
+		DFE2418E14B5389700243C45 /* sparky_dashboard_speed-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sparky_dashboard_speed-1.png"; path = "../../sparky_dashboard_speed-1.png"; sourceTree = "<group>"; };
+		DFE2418F14B5389700243C45 /* sparky_dashboard_speed-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sparky_dashboard_speed-2.png"; path = "../../sparky_dashboard_speed-2.png"; sourceTree = "<group>"; };
+		DFE2419014B5389700243C45 /* sparky_dashboard_speed-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sparky_dashboard_speed-3.png"; path = "../../sparky_dashboard_speed-3.png"; sourceTree = "<group>"; };
+		DFE2419114B5389700243C45 /* sparky_dashboard_speed0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sparky_dashboard_speed0.png; path = ../../sparky_dashboard_speed0.png; sourceTree = "<group>"; };
+		DFE2419214B5389700243C45 /* sparky_dashboard_speed1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sparky_dashboard_speed1.png; path = ../../sparky_dashboard_speed1.png; sourceTree = "<group>"; };
+		DFE2419314B5389700243C45 /* sparky_dashboard_speed2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sparky_dashboard_speed2.png; path = ../../sparky_dashboard_speed2.png; sourceTree = "<group>"; };
+		DFE2419414B5389700243C45 /* sparky_dashboard_speed3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sparky_dashboard_speed3.png; path = ../../sparky_dashboard_speed3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,16 +165,15 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B63A9F6C1442416400BF7893 /* indicator.png */,
-				B63A9F5E1440F1C000BF7893 /* sparky_dashboard_speed-1.png */,
-				B63A9F5F1440F1C000BF7893 /* sparky_dashboard_speed-2.png */,
-				B63A9F601440F1C000BF7893 /* sparky_dashboard_speed-3.png */,
-				B63A9F611440F1C000BF7893 /* sparky_dashboard_speed0.png */,
-				B63A9F621440F1C000BF7893 /* sparky_dashboard_speed1.png */,
-				B63A9F631440F1C000BF7893 /* sparky_dashboard_speed2.png */,
-				B63A9F641440F1C000BF7893 /* sparky_dashboard_speed3.png */,
-				B63A9F5B1440EF0B00BF7893 /* sparky_dashboard_bg.png */,
-				B61BBAC6142E918F00C8B33F /* Roomba.png */,
+				DFE2418C14B5389700243C45 /* Roomba.png */,
+				DFE2418D14B5389700243C45 /* sparky_dashboard_bg.png */,
+				DFE2418E14B5389700243C45 /* sparky_dashboard_speed-1.png */,
+				DFE2418F14B5389700243C45 /* sparky_dashboard_speed-2.png */,
+				DFE2419014B5389700243C45 /* sparky_dashboard_speed-3.png */,
+				DFE2419114B5389700243C45 /* sparky_dashboard_speed0.png */,
+				DFE2419214B5389700243C45 /* sparky_dashboard_speed1.png */,
+				DFE2419314B5389700243C45 /* sparky_dashboard_speed2.png */,
+				DFE2419414B5389700243C45 /* sparky_dashboard_speed3.png */,
 				B66C1DD813DCD8100035C174 /* EditFieldView.xib */,
 				B66C1DD313DCCE700035C174 /* TextViewCell.xib */,
 				3FC4B24113981745000E0339 /* iTunesArtwork.png */,
@@ -295,17 +292,16 @@
 				3FC4B24213981745000E0339 /* iTunesArtwork.png in Resources */,
 				B66C1DD413DCCE700035C174 /* TextViewCell.xib in Resources */,
 				B66C1DD913DCD8100035C174 /* EditFieldView.xib in Resources */,
-				B61BBAC7142E918F00C8B33F /* Roomba.png in Resources */,
 				B61BBACF142EE66200C8B33F /* DashView.xib in Resources */,
-				B63A9F5C1440EF0B00BF7893 /* sparky_dashboard_bg.png in Resources */,
-				B63A9F651440F1C000BF7893 /* sparky_dashboard_speed-1.png in Resources */,
-				B63A9F661440F1C000BF7893 /* sparky_dashboard_speed-2.png in Resources */,
-				B63A9F671440F1C000BF7893 /* sparky_dashboard_speed-3.png in Resources */,
-				B63A9F681440F1C000BF7893 /* sparky_dashboard_speed0.png in Resources */,
-				B63A9F691440F1C000BF7893 /* sparky_dashboard_speed1.png in Resources */,
-				B63A9F6A1440F1C000BF7893 /* sparky_dashboard_speed2.png in Resources */,
-				B63A9F6B1440F1C000BF7893 /* sparky_dashboard_speed3.png in Resources */,
-				B63A9F6D1442416400BF7893 /* indicator.png in Resources */,
+				DFE2419514B5389700243C45 /* Roomba.png in Resources */,
+				DFE2419614B5389700243C45 /* sparky_dashboard_bg.png in Resources */,
+				DFE2419714B5389700243C45 /* sparky_dashboard_speed-1.png in Resources */,
+				DFE2419814B5389700243C45 /* sparky_dashboard_speed-2.png in Resources */,
+				DFE2419914B5389700243C45 /* sparky_dashboard_speed-3.png in Resources */,
+				DFE2419A14B5389700243C45 /* sparky_dashboard_speed0.png in Resources */,
+				DFE2419B14B5389700243C45 /* sparky_dashboard_speed1.png in Resources */,
+				DFE2419C14B5389700243C45 /* sparky_dashboard_speed2.png in Resources */,
+				DFE2419D14B5389700243C45 /* sparky_dashboard_speed3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

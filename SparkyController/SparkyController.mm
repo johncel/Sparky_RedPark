@@ -377,6 +377,12 @@ NSString* const cMyApplicationName = @"Drive Sparky";
 		mJoystick->Update();
 		float leftPercent = -(mJoystick->GetAxis(mLeftJoystickAxis) - 128.0) / 128.0;
 		float rightPercent = (mJoystick->GetAxis(mRightJoystickAxis) - 128.0) / 128.0;
+        
+        //trying out one stick
+        leftPercent = sqrt(pow(mJoystick->GetAxis(0)-128.0,2) + pow(mJoystick->GetAxis(1)-128.0,2))/128.0;
+        if (mJoystick->GetAxis(1)-128.0 > 0)
+            leftPercent = -leftPercent;
+        rightPercent = (mJoystick->GetAxis(0) - 128.0) / 128.0;
 		
 		//left
 		if ((leftPercent - rightPercent) < -0.5)
