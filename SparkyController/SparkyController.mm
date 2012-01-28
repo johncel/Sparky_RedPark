@@ -380,9 +380,14 @@ NSString* const cMyApplicationName = @"Drive Sparky";
         
         //trying out one stick
         leftPercent = sqrt(pow(mJoystick->GetAxis(0)-128.0,2) + pow(mJoystick->GetAxis(1)-128.0,2))/128.0;
-        if (mJoystick->GetAxis(1)-128.0 > 0)
+        if (mJoystick->GetAxis(1)-128.0 > 100) //only go backward if the joystick is mostly backward.
             leftPercent = -leftPercent;
-        rightPercent = (mJoystick->GetAxis(0) - 128.0) / 128.0;
+        int rightPercentSign = (mJoystick->GetAxis(0) - 128.0);
+        if (rightPercentSign < 0)
+            rightPercentSign = -1;
+        else
+            rightPercentSign = 1;
+        rightPercent = pow(fabs(mJoystick->GetAxis(0) - 128.0) / 128.0,1)*rightPercentSign;
 		
 		//left
 		if ((leftPercent - rightPercent) < -0.5)
